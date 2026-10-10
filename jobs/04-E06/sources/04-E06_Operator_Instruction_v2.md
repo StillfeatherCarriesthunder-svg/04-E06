@@ -1,7 +1,7 @@
 # OPERATOR INSTRUCTION — 04-E06 SOURCE ACQUISITION JOB
 
 Instruction ID: 04-E06-OP-ACQ-001
-Revision: 1
+Revision: 2
 Date: 2026-10-10
 Operator: Aaron
 Governing release: UAEP-PORTABLE-3.0.0 (UAEP_WORKER_KERNEL)
@@ -26,7 +26,7 @@ This job collects the sources such a paper would need. It does not answer the qu
 
 | Element | Fixed value |
 |---|---|
-| Province | New Brunswick. |
+| Geographic scope | Canada-wide: federal law, and the law of every province and territory where it bears on the question. |
 | Nation | None selected. Do not research or assert facts about any real Nation. |
 | Nation-specific instruments | Locate where they are published or registered. Do not open an individual Nation's land code, law or agreement. |
 | Legal cutoff | 2026-10-10. Later access dates are access dates, not new cutoffs. |
@@ -37,7 +37,7 @@ Use these as the `--stage` numbers.
 
 1. **Federal legislation and regulations.** The Indian Act estates provisions and their application provision, the Indian Estates Regulations, the Framework Agreement on First Nation Land Management Act, the Family Homes on Reserves and Matrimonial Interests or Rights Act, and any other federal enactment the Worker finds bears on which instrument governs a succession.
 2. **Federal administrative guidance.** Indigenous Services Canada and Crown-Indigenous Relations material on when the department, a province or a First Nation handles an estate.
-3. **New Brunswick probate and succession law.** The Probate Court Act, the Probate Rules, the Wills Act, the Devolution of Estates Act, and any rule or statute these make governing.
+3. **Provincial and territorial probate and succession law.** For each province and territory: its probate or surrogate court statute and rules, its wills statute, and its intestate succession statute, limited to the provisions that bear on which law governs an estate (application, conflict of laws, and any reference to reserves, Indians or First Nations). The Worker selects the provisions.
 4. **Registries and publication points.** Official places where land interests, First Nation laws, land codes, by-laws and self-government agreements are registered or published.
 5. **Judicial treatment.** Decisions that address which regime governs a deceased's estate, with citation, court and date. Record the holding separately from context. Do not analyse it.
 
