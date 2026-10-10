@@ -1,5 +1,5 @@
 {
-  "note": "Domains capture.py accepts without --allow-other-domain. Official primary-law and government sources only. Edit with operator approval.",
+  "note": "Known official sites. capture.py labels these automatically. Any other site is allowed, but the Worker must state the issuing body with --issuer and --issuer-type. Adding a site here only saves that step; it grants nothing new.",
   "official": [
     "laws-lois.justice.gc.ca",
     "laws.justice.gc.ca",

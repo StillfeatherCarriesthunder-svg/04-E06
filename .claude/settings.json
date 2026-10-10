@@ -47,5 +47,19 @@
       "Edit(/sources/governing/**)",
       "Edit(/scripts/**)"
     ]
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume",
+        "hooks": [
+          {
+            "type": "command",
+            "timeout": 180,
+            "command": "python3 -c 'import pypdf' 2>/dev/null || python3 -m pip install --break-system-packages -q pypdf >/dev/null 2>&1; python3 -c 'import pypdf; print(\"[session start] pypdf\", pypdf.__version__, \"ready: PDF captures get text versions\")' 2>/dev/null || echo '[session start] pypdf NOT AVAILABLE: PDF captures will have no text version. Report this before capturing PDFs.'"
+          }
+        ]
+      }
+    ]
   }
 }

@@ -40,7 +40,7 @@ LEDGER = ROOT / "evidence" / "ledger.jsonl"
 DOMAINS = ROOT / "gate" / "source_domains.json"
 
 USER_AGENT = "Mozilla/5.0 (compatible; UAEP-source-capture/1.0; operator-run legal research)"
-KINDS = ["statute", "regulation", "rules", "case", "gazette", "official-other"]
+KINDS = ["statute", "regulation", "rules", "case", "gazette", "first-nation-law", "agreement", "guidance", "registry", "official-other"]
 
 DATE = r"(\d{4}-\d{2}-\d{2}|[A-Z][a-z]+\.? \d{1,2},? \d{4}|\d{1,2} [A-Z][a-z]+ \d{4})"
 CURRENCY_PATTERNS = [
@@ -225,6 +225,10 @@ def currency_candidates(text, limit=12):
     return found
 
 
+ISSUER_TYPES = ["federal", "provincial", "territorial", "court", "first_nation",
+                "indigenous_body", "intergovernmental", "other"]
+
+
 def main():
     ap = argparse.ArgumentParser(description="Capture one source into the evidence ledger.")
     ap.add_argument("url")
@@ -237,8 +241,10 @@ def main():
                     help="Render with headless Chromium (for JavaScript sites)")
     ap.add_argument("--timeout", type=int, default=60)
     ap.add_argument("--note", default="")
-    ap.add_argument("--allow-other-domain", action="store_true",
-                    help="Capture from a domain outside gate/source_domains.json (operator approval required)")
+    ap.add_argument("--issuer", default=None,
+                    help="Body that issued the source. Required when the site is not in gate/source_domains.json")
+    ap.add_argument("--issuer-type", default=None, choices=ISSUER_TYPES,
+                    help="Kind of issuing body. Required when the site is not in gate/source_domains.json")
     ap.add_argument("--from-file", metavar="PATH",
                     help="Ingest a file the operator saved in their own browser from URL, instead of fetching")
     args = ap.parse_args()
@@ -249,14 +255,16 @@ def main():
         sys.exit("ERROR: --source-id may use letters, digits, '.', '_' and '-' only")
 
     host = (urllib.parse.urlsplit(args.url).hostname or "").lower()
+    if not host:
+        sys.exit(f"REFUSED: no host in URL {args.url!r}")
     domains = json.loads(DOMAINS.read_text(encoding="utf-8")) if DOMAINS.exists() else {}
-    allowed = set(domains.get("official", [])) | set(domains.get("case_reporters", []))
-    if host not in allowed and not args.allow_other_domain:
-        sys.exit(f"REFUSED: {host} is not in gate/source_domains.json. Primary sources must come "
-                 f"from official sites. Use --allow-other-domain only with operator approval.")
+    known = set(domains.get("official", [])) | set(domains.get("case_reporters", []))
+    if host not in known and not (args.issuer and args.issuer_type):
+        sys.exit(f"REFUSED: {host} is not a known official site in gate/source_domains.json. "
+                 f"State who issued the source with --issuer NAME --issuer-type TYPE. Nothing written.")
     domain_class = ("official" if host in domains.get("official", []) else
                     "case_reporter" if host in domains.get("case_reporters", []) else
-                    "OTHER_OPERATOR_APPROVED")
+                    "ISSUER_STATED")
 
     retrieved = utc_now()
     if args.from_file:
@@ -308,6 +316,9 @@ def main():
         "requested_url": args.url,
         "final_url": result["final_url"],
         "domain_class": domain_class,
+        "host": host,
+        "issuer": args.issuer,
+        "issuer_type": args.issuer_type,
         "http_status": result["http_status"],
         "content_type": result["content_type"],
         "method": result["method"],

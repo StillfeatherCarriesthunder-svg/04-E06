@@ -17,6 +17,8 @@ Work on one job per session. Do not read or change another job's folder.
 
 ## Session start
 
+A startup step reports whether `pypdf` is ready. If it reports NOT AVAILABLE, tell the operator before capturing any PDF.
+
 1. Run `python3 scripts/verify_gate.py --job ID`. At initial entry only, add `--bind`.
 2. Read `WORKER_INSTRUCTIONS.md` and the job's current Manifest in `jobs/ID/state/` (if one exists).
 3. Initial entry: read the kernel, the job's topic file and its operator instruction in full. Resumed entry: read the kernel sections the next transition needs.
@@ -26,9 +28,9 @@ Work on one job per session. Do not read or change another job's folder.
 
 | Kernel operation | Use | Never |
 |---|---|---|
-| Capture a legal source | `python3 scripts/capture.py --job ID URL --source-id SID --stage N --kind K` | Use WebFetch output as evidence. It is a summary. |
+| Capture a legal source | `python3 scripts/capture.py --job ID URL --source-id SID --stage N --kind K` (sites not in the job's `gate/source_domains.json` also need `--issuer NAME --issuer-type TYPE`) | Use WebFetch output as evidence. It is a summary. |
 | Ingest a page the operator saved | add `--from-file inbox/FILE` (path relative to the job folder) | Treat the operator's file as fetched by you. |
-| Locate a source | WebSearch, or WebFetch on the allowed domains | Treat a search snippet as a source. |
+| Locate a source | WebSearch or WebFetch | Treat a search snippet as a source. |
 | Record pinpoint, currency, holding, admission | `python3 scripts/ledger.py --job ID annotate CAPTURE_ID --field F --value V` | Edit a ledger by hand. |
 | Record an unretrievable source | `python3 scripts/ledger.py --job ID gap ...` | Fill the gap from memory. |
 | Check evidence integrity | `python3 scripts/ledger.py --job ID verify` | — |
@@ -49,7 +51,7 @@ Confirm a currency date by reading it in the source. The capture script's candid
 
 ## Hard limits
 
-- Official sources only. `capture.py` refuses domains outside the job's `gate/source_domains.json`. Ask the operator before using `--allow-other-domain` or adding a domain.
+- Capture primary sources from the issuing body's own site or official publication point, as the job's operator instruction allows. For a site not in `gate/source_domains.json`, state the issuer at capture. The operator does not vet sites.
 - CanLII: one hand-picked decision page at a time. No crawling.
 - When a site refuses automated access, record the refusal and name the exact page for the operator to save into the job's `inbox/`.
 - Never edit or delete files in any `evidence/raw/` or `evidence/text/`.
