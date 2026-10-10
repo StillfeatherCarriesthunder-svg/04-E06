@@ -1,0 +1,22 @@
+{
+  "note": "Domains capture.py accepts without --allow-other-domain. Official primary-law and government sources only. Edit with operator approval.",
+  "official": [
+    "laws-lois.justice.gc.ca",
+    "laws.justice.gc.ca",
+    "gazette.gc.ca",
+    "www.gazette.gc.ca",
+    "canadagazette.gc.ca",
+    "laws.gnb.ca",
+    "www2.gnb.ca",
+    "www.gnb.ca",
+    "www.courtsnb-coursnb.ca",
+    "decisions.scc-csc.ca",
+    "www.scc-csc.ca",
+    "www.sac-isc.gc.ca",
+    "www.rcaanc-cirnac.gc.ca"
+  ],
+  "case_reporters": [
+    "www.canlii.org"
+  ],
+  "case_reporter_rule": "One page per decision, fetched by hand-picked URL. No bulk or automated crawling."
+}

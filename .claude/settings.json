@@ -1,0 +1,49 @@
+{
+  "autoMemoryEnabled": false,
+  "permissions": {
+    "allow": [
+      "Bash(python3 scripts/capture.py *)",
+      "Bash(python3 scripts/ledger.py *)",
+      "Bash(python3 scripts/verify_gate.py *)",
+      "Bash(python3 scripts/publish_state.py *)",
+      "Bash(python scripts/capture.py *)",
+      "Bash(python scripts/ledger.py *)",
+      "Bash(python scripts/verify_gate.py *)",
+      "Bash(python scripts/publish_state.py *)",
+      "Bash(git push -u origin *)",
+      "Bash(git push origin *)",
+      "WebSearch",
+      "WebFetch(domain:laws-lois.justice.gc.ca)",
+      "WebFetch(domain:laws.gnb.ca)",
+      "WebFetch(domain:www2.gnb.ca)",
+      "WebFetch(domain:www.gnb.ca)",
+      "WebFetch(domain:www.courtsnb-coursnb.ca)",
+      "WebFetch(domain:decisions.scc-csc.ca)",
+      "WebFetch(domain:www.sac-isc.gc.ca)",
+      "WebFetch(domain:www.rcaanc-cirnac.gc.ca)",
+      "WebFetch(domain:www.gazette.gc.ca)",
+      "WebFetch(domain:www.canlii.org)"
+    ],
+    "deny": [
+      "Bash(git push --force*)",
+      "Bash(git push -f*)",
+      "Bash(git push *--force*)",
+      "Bash(git push * main)",
+      "Bash(git push * *:main)",
+      "Bash(git remote *)",
+      "Bash(git commit --amend*)",
+      "Bash(git reset *)",
+      "Bash(git rebase *)",
+      "Bash(git restore *)",
+      "Bash(git clean *)",
+      "Edit(/evidence/raw/**)",
+      "Edit(/evidence/text/**)",
+      "Edit(/evidence/ledger.jsonl)",
+      "Edit(/state/published.jsonl)",
+      "Edit(/sources/governing/UAEP_WORKER_KERNEL.md)",
+      "Edit(/sources/governing/WORKER_INSTRUCTIONS.md)",
+      "Edit(/sources/governing/00-B_SERIES_INDEX.md)",
+      "Edit(/04-E06_Topic.md)"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "job_id": null,
+  "note": "Identity bindings for the initial source gate. job_id is set at initialization from the operator's activation instruction. Add that instruction here (sha256 null) and bind it with verify_gate.py --bind.",
+  "sources": [
+    {
+      "id": "SRC-KERNEL",
+      "path": "sources/governing/UAEP_WORKER_KERNEL.md",
+      "role": "governing Worker specification, UAEP-PORTABLE-3.0.0",
+      "sha256": "sha256:fe793e4b9867addfb64e74cffb369347a198fb797e0931d3b214802eeac1d933"
+    },
+    {
+      "id": "SRC-WORKER-INSTR",
+      "path": "sources/governing/WORKER_INSTRUCTIONS.md",
+      "role": "Worker instructions, UAEP-PORTABLE-3.0.0",
+      "sha256": "sha256:dd53520bdc5de99c6fd788043403e0cbb9035ee58c0442de29685de36e1cb180"
+    },
+    {
+      "id": "SRC-INDEX",
+      "path": "sources/governing/00-B_SERIES_INDEX.md",
+      "role": "B-Series category taxonomy",
+      "sha256": "sha256:762c3f7401cdcf1e6cb58574acac0f4e201bf1aa35a5e4dae2b231acced4a4dd"
+    },
+    {
+      "id": "SRC-04-E06",
+      "path": "04-E06_Topic.md",
+      "role": "Category 04 inventory excerpt; 04-E06 candidate and activation rule",
+      "sha256": "sha256:011e4a5806b470f721c53ce007706a38778a75a50085cd1a066b5dcf6985992b"
+    }
+  ]
+}
