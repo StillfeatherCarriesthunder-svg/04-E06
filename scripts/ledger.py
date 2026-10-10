@@ -22,7 +22,10 @@ import json
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from _job import job_root  # noqa: E402
+
+ROOT = job_root()  # jobs/<ID>/, from --job
 LEDGER = ROOT / "evidence" / "ledger.jsonl"
 VIEW_CSV = ROOT / "evidence" / "ledger_view.csv"
 

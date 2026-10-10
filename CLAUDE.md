@@ -1,44 +1,45 @@
-# 04-E06 — UAEP-WORKER workspace
+# B-Series hub — UAEP-WORKER workspace
 
-You are UAEP-WORKER, release UAEP-PORTABLE-3.0.0. The job is candidate 04-E06. Its job ID is set at initialization from the operator's activation instruction.
+You are UAEP-WORKER, release UAEP-PORTABLE-3.0.0. This repository is a hub. Each job lives in its own folder under `jobs/`. The operator names the job at session start.
 
-## Governing files
+## Layout
 
-- `sources/governing/UAEP_WORKER_KERNEL.md` — the complete execution specification
-- `sources/governing/WORKER_INSTRUCTIONS.md` — summary of the kernel
-- `sources/governing/00-B_SERIES_INDEX.md` — B-Series taxonomy
-- `04-E06_Topic.md` — the 04-E06 candidate and its activation rule
-- The operator's activation instruction, once supplied
+- `sources/governing/` — shared: `UAEP_WORKER_KERNEL.md`, `WORKER_INSTRUCTIONS.md`, `00-B_SERIES_INDEX.md`
+- `scripts/` — shared tools; every script except `new_job.py` takes `--job ID`
+- `templates/source_domains.json` — default domain list copied into new jobs
+- `jobs/<ID>/sources/` — the job's topic file, operator instruction and any prior-run records
+- `jobs/<ID>/gate/` — the job's required sources and approved domains
+- `jobs/<ID>/evidence/`, `state/`, `draft/`, `inbox/` — the job's records
 
-The kernel governs. This file only maps the kernel onto this workspace's tools. If this file and the kernel conflict, the kernel wins; report the conflict.
+The kernel governs. This file only maps the kernel onto this hub's tools. The job's operator instruction sets scope and authority. If this file conflicts with either, they win; report the conflict.
 
-## Prior run
-
-`sources/prior_run/` holds a source register and search log from an earlier candidate scan, dated 2026-10-09. They are records of that scan, not verified evidence. No bytes were retained. Rows the register marks as search-extract only, not opened, or not retrieved still need capture.
+Work on one job per session. Do not read or change another job's folder.
 
 ## Session start
 
-1. Run `python3 scripts/verify_gate.py`. At initial entry only, run it with `--bind`.
-2. Read `WORKER_INSTRUCTIONS.md` and the current Manifest in `state/` (if one exists).
-3. Initial entry: read the kernel, the topic file and the activation instruction in full. Resumed entry: read the kernel sections the next transition needs.
+1. Run `python3 scripts/verify_gate.py --job ID`. At initial entry only, add `--bind`.
+2. Read `WORKER_INSTRUCTIONS.md` and the job's current Manifest in `jobs/ID/state/` (if one exists).
+3. Initial entry: read the kernel, the job's topic file and its operator instruction in full. Resumed entry: read the kernel sections the next transition needs.
 4. Declare SOURCES / SOURCE GATE as the kernel requires. Identity is the script's result; completeness is your read check.
 
 ## Tool mapping
 
 | Kernel operation | Use | Never |
 |---|---|---|
-| Capture a legal source | `python3 scripts/capture.py URL --source-id ID --stage N --kind K` | Use WebFetch output as evidence. It is a summary. |
-| Ingest a page the operator saved | `python3 scripts/capture.py URL --source-id ID --stage N --kind K --from-file inbox/FILE` | Treat the operator's file as fetched by you. |
+| Capture a legal source | `python3 scripts/capture.py --job ID URL --source-id SID --stage N --kind K` | Use WebFetch output as evidence. It is a summary. |
+| Ingest a page the operator saved | add `--from-file inbox/FILE` (path relative to the job folder) | Treat the operator's file as fetched by you. |
 | Locate a source | WebSearch, or WebFetch on the allowed domains | Treat a search snippet as a source. |
-| Record pinpoint, currency, holding, admission | `python3 scripts/ledger.py annotate CAPTURE_ID --field F --value V` | Edit `evidence/ledger.jsonl` by hand. |
-| Record an unretrievable source | `python3 scripts/ledger.py gap ...` | Fill the gap from memory. |
-| Check evidence integrity | `python3 scripts/ledger.py verify` | — |
+| Record pinpoint, currency, holding, admission | `python3 scripts/ledger.py --job ID annotate CAPTURE_ID --field F --value V` | Edit a ledger by hand. |
+| Record an unretrievable source | `python3 scripts/ledger.py --job ID gap ...` | Fill the gap from memory. |
+| Check evidence integrity | `python3 scripts/ledger.py --job ID verify` | — |
 | compute_digest / verify_digest | the scripts, or `python3 -c` with hashlib | Write a hash by hand. |
-| publish_state | write the Manifest to `state/`, run `python3 scripts/publish_state.py MANIFEST --delta ID --also CAPSULE`, then `git push` | Report state as published if the script failed. |
+| publish_state | write the Manifest to `jobs/ID/state/`, run `python3 scripts/publish_state.py --job ID state/MANIFEST --delta DID --also state/CAPSULE`, then `git push` | Report state as published if the script failed. |
+
+`publish_state.py` takes paths relative to the job folder.
 
 ## Persistence
 
-This workspace runs in a Claude Code cloud session. The machine is wiped after it sits idle. A local commit is not durable. After every `publish_state.py` run, push the working branch and confirm the push succeeded before reporting persistence. Report persistence as the pushed branch and commit.
+This hub runs in Claude Code cloud sessions. The machine is wiped after it sits idle. A local commit is not durable. After every `publish_state.py` run, push the working branch and confirm the push succeeded before reporting persistence. Report persistence as the pushed branch and commit.
 
 ## Reading captured sources
 
@@ -48,17 +49,21 @@ Confirm a currency date by reading it in the source. The capture script's candid
 
 ## Hard limits
 
-- Official sources only. `capture.py` refuses domains outside `gate/source_domains.json`. Ask the operator before using `--allow-other-domain`.
+- Official sources only. `capture.py` refuses domains outside the job's `gate/source_domains.json`. Ask the operator before using `--allow-other-domain` or adding a domain.
 - CanLII: one hand-picked decision page at a time. No crawling.
-- When a site refuses automated access, record the refusal and name the exact page for the operator to save into `inbox/`.
-- Never edit or delete files in `evidence/raw/` or `evidence/text/`.
+- When a site refuses automated access, record the refusal and name the exact page for the operator to save into the job's `inbox/`.
+- Never edit or delete files in any `evidence/raw/` or `evidence/text/`.
 - Never push to `main`, force-push, amend commits, reset or rebase.
-- Stop at each phase gate and ask the operator for approval.
+- Stop at each phase gate the operator instruction sets and ask for approval.
+
+## Starting a new job
+
+Only when the operator asks. Run `python3 scripts/new_job.py ID`, then commit and push. The operator uploads the topic file and operator instruction to `jobs/ID/sources/` on GitHub. Pull them, run `python3 scripts/new_job.py ID --register`, then `verify_gate.py --job ID --bind`. You cannot write into a job's `sources/` yourself.
 
 ## Context and handoff
 
-Before context runs high, publish current state, write the capsule with its CTX/BASIS/HOP line, and push. A new session resumes from `state/`, not from conversation memory.
+Before context runs high, publish current state, write the capsule with its CTX/BASIS/HOP line, and push. A new session resumes from the job's `state/`, not from conversation memory.
 
 ## Review isolation
 
-Each TERMINAL reviewer gets one packet folder holding only the frozen draft and admitted evidence. Give the reviewer subagent the packet path and its role. Give it nothing else: no author rationale, no other reviewer's findings. Subagent isolation is not qualified; record it as NOT_TESTED.
+When an operator instruction requires TERMINAL assurance, each reviewer gets one packet folder holding only the frozen draft and admitted evidence. Give the reviewer subagent the packet path and its role, nothing else. Subagent isolation is not qualified; record it as NOT_TESTED.

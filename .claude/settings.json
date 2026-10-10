@@ -10,6 +10,8 @@
       "Bash(python scripts/ledger.py *)",
       "Bash(python scripts/verify_gate.py *)",
       "Bash(python scripts/publish_state.py *)",
+      "Bash(python3 scripts/new_job.py *)",
+      "Bash(python scripts/new_job.py *)",
       "Bash(git push -u origin *)",
       "Bash(git push origin *)",
       "WebSearch",
@@ -36,14 +38,14 @@
       "Bash(git rebase *)",
       "Bash(git restore *)",
       "Bash(git clean *)",
-      "Edit(/evidence/raw/**)",
-      "Edit(/evidence/text/**)",
-      "Edit(/evidence/ledger.jsonl)",
-      "Edit(/state/published.jsonl)",
-      "Edit(/sources/governing/UAEP_WORKER_KERNEL.md)",
-      "Edit(/sources/governing/WORKER_INSTRUCTIONS.md)",
-      "Edit(/sources/governing/00-B_SERIES_INDEX.md)",
-      "Edit(/04-E06_Topic.md)"
+      "Edit(/jobs/*/evidence/raw/**)",
+      "Edit(/jobs/*/evidence/text/**)",
+      "Edit(/jobs/*/evidence/ledger.jsonl)",
+      "Edit(/jobs/*/state/published.jsonl)",
+      "Edit(/jobs/*/gate/required_sources.json)",
+      "Edit(/jobs/*/sources/**)",
+      "Edit(/sources/governing/**)",
+      "Edit(/scripts/**)"
     ]
   }
 }

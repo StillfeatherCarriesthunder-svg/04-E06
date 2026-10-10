@@ -1,8 +1,5 @@
 # Keep evidence and governing bytes exact. Without this, Git on Windows may
 # convert line endings and change the files' SHA-256 hashes.
 sources/** -text
-evidence/** -text
-state/** -text
-gate/** -text
-review/** -text
-draft/** -text
+templates/** -text
+jobs/** -text

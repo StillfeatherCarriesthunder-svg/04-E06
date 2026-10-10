@@ -20,7 +20,10 @@ import subprocess
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from _job import job_root  # noqa: E402
+
+ROOT = job_root()  # jobs/<ID>/, from --job
 PUBLISHED = ROOT / "state" / "published.jsonl"
 
 
@@ -109,7 +112,7 @@ def main():
         raise
 
     commit = git("rev-parse", "HEAD")
-    blob = git("show", f"HEAD:{mrel}", binary=True)
+    blob = git("show", f"HEAD:./{mrel}", binary=True)
     committed = "sha256:" + hashlib.sha256(blob).hexdigest()
     if committed != digest:
         sys.exit(f"PUBLISH FAILED: committed bytes hash {committed} differs from {digest}.")

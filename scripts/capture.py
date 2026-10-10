@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Capture one source for the C03-D05 evidence ledger.
+"""Capture one source into a job's evidence ledger (jobs/<ID>/evidence/).
 
 Fetches the source, saves the exact bytes, computes SHA-256, writes a plain-text
 derivative for cheap searching, lists currency-date candidates found in the text,
@@ -30,7 +30,10 @@ import urllib.request
 from html.parser import HTMLParser
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from _job import job_root  # noqa: E402
+
+ROOT = job_root()  # jobs/<ID>/, from --job
 RAW_DIR = ROOT / "evidence" / "raw"
 TEXT_DIR = ROOT / "evidence" / "text"
 LEDGER = ROOT / "evidence" / "ledger.jsonl"
@@ -133,6 +136,8 @@ def fetch_browser(url, timeout):
 def read_operator_file(path_str, url):
     """Read a file the operator saved from URL in their own browser."""
     path = Path(path_str)
+    if not path.is_absolute():
+        path = ROOT / path  # relative to the job folder
     if not path.is_file():
         sys.exit(f"ERROR: --from-file {path_str} not found. Nothing written.")
     suffix = path.suffix.lower()
