@@ -82,6 +82,20 @@ Candidate 04-E06 stays CANDIDATE / UNACTIVATED. Every search and fetch in this j
 | 74 | 2026-10-10T16:51:04Z | capture.py (http) | https://www.justice.gov.nt.ca/en/files/legislation/judicature/judicature.r9.pdf | CAPTURED CAP-20261010T165104Z-e483a9f6 (NT-ESTATE-ADMIN-RULES) |
 | 75 | 2026-10-10T16:51Z | curl (locate only) | nunavutlegislation.ca/en/file-download/download/public/393, 7788, 6437 | HTTP 403 (site refusal); GAP-009..011 |
 | 76 | 2026-10-10T16:52:04Z | capture.py (http) | https://www.assembly.nl.ca/Legislation/sr/statutes/j04.htm | CAPTURED CAP-20261010T165204Z-1c4dff2f (NL-JUDICATURE-ACT) |
+| 77 | 2026-10-10T16:53:40Z | capture.py (http) | https://www.sac-isc.gc.ca/eng/1100100034803 ; https://www.rcaanc-cirnac.gc.ca/eng/1100100030583/1529420498350 ; https://www.gazette.gc.ca/rp-pr/p2/2025/2025-01-01/html/sor-dors280-eng.html | CAPTURED CAP-20261010T165340Z-9f44bc33 (ISC-LAND-REGISTRATION), CAP-20261010T165341Z-9ebace95 (CIRNAC-FINAL-AGREEMENTS-INDEX), CAP-20261010T165342Z-86d0a164 (CANADA-GAZETTE-SOR-2024-280) |
+| 78 | 2026-10-10T16:54:22Z | capture.py (http) | https://fng.ca/ ; https://labrc.com/resource/land-codes/ | CAPTURED CAP-20261010T165422Z-c7dae726 (FIRST-NATIONS-GAZETTE), CAP-20261010T165426Z-05e5d4f1 (LABRC-LAND-CODES-COLLECTION); publication points only |
+| 79 | 2026-10-10T16:55Z | WebSearch | Attorney General of Canada v. Canard [1976] 1 SCR 170 decisions.scc-csc.ca | Secondary only (reseaudialog.ca, vlex, Wikipedia, erudit.org, alexi.com) |
+| 80 | 2026-10-10T16:55Z | WebSearch | "ordinarily resident" reserve estate Indian Act section 4(3) court decision province jurisdiction estate deceased canlii | Secondary (allaboutestates.ca, hullandhull.com, bmo.com, fultonco.com); committee evidence; 1975 CanLII 137 identified |
+| 81 | 2026-10-10T16:55Z | capture.py (http) | https://www.canlii.org/en/ca/scc/doc/1975/1975canlii137/1975canlii137.html | FAILED: HTTP 403 (one hand-picked page; refusal); GAP-012 |
+| 82 | 2026-10-10T16:55Z | WebSearch | scc-csc.lexum.com OR decisions.scc-csc.ca "Canard" 1975 "item" ... | No SCC page; reseaudialog.ca, vlex, decision.tcc-cci.gc.ca FC decision 64640, millerthomson.com |
+| 83 | 2026-10-10T16:55Z | curl (locate only) | decisions.scc-csc.ca search for 'Canard' 1975-1976 | HTTP 403 (refusal) |
+| 84 | 2026-10-10T16:56Z | curl (reachability probe) | decisions.fct-cf.gc.ca, decisions.fca-caf.gc.ca, www.yukoncourts.ca, www.bccourts.ca, www.courts.gov.bc.ca | FC and FCA 403; Yukon courts 200; bccourts.ca connection reset; courts.gov.bc.ca TLS verification failure |
+| 85 | 2026-10-10T16:56Z | WebSearch | Dickson Estate 2012 YKSC 71 yukoncourts.ca Indian Act ordinarily resident reserve estate | yukoncourts.ca PDF; secondary (millerthomson.com, legalline.ca, hammerco.ca) |
+| 86 | 2026-10-10T16:56Z | curl HEAD (locate only) | yukoncourts.ca .../documents/en/ and /fr/ 2012_yksc_71_dickson_estate.pdf | Both 301 to www.yukoncourts.ca |
+| 87 | 2026-10-10T16:56:45Z | capture.py (http) | https://yukoncourts.ca/sites/default/files/documents/fr/2012_yksc_71_dickson_estate.pdf | CAPTURED CAP-20261010T165645Z-90dbfd2f (CASE-DICKSON-2012-YKSC-71) |
+| 88 | 2026-10-10T16:57Z | WebSearch | court decision estate deceased First Nation member which law governs provincial probate court jurisdiction Indian Act section 44 ... | estateably.com, hullandhull.com, aboriginal.legalaid.bc.ca (secondary); FC decision 521878 (s. 44 transfer, 2021) |
+| 89 | 2026-10-10T16:57Z | curl (locate only) | decision.tcc-cci.gc.ca/fc-cf/decisions/en/521878/1/document.do ; .../64640/1/document.do | HTTP 403 (refusal); GAP-015 |
+| 90 | 2026-10-10T16:58Z | WebSearch | "Indian Act" estate "ordinarily resident" reserve "letters of administration" ... manitobacourts.mb.ca OR albertacourts.ca OR courts.ns.ca | No provincial court-site decisions beyond Dickson; decisions.fca-caf.ca 526480 (host refuses) |
 
 ## EXCLUDED
 
@@ -119,3 +133,15 @@ Candidate 04-E06 stays CANDIDATE / UNACTIVATED. Every search and fetch in this j
 | legislation.nt.gov.au (Northern Territory, Australia) | Not a Canadian jurisdiction |
 | nunavutcourts.ca probate forms; pravo.hse.ru copy of Nunavut Wills Act | Forms only / third-party copy |
 | NWT Judicature Act | Enabling statute for the Estate Administration Rules; rules captured; Act not opened |
+| ISC land registry search interfaces | Not opened; registries described by ISC-LAND-REGISTRATION capture |
+| Items listed on the First Nations Gazette home page and individual land codes in the LABRC collection | Nation-specific instruments; operator has requested none (§3) |
+| jurisprudence.reseaudialog.ca, Wikipedia, erudit.org, alexi.com, millerthomson.com, hullandhull.com, allaboutestates.ca, bmo.com, fultonco.com, estateably.com, legalline.ca, hammerco.ca, aboriginal.legalaid.bc.ca | Secondary sources; pointers only |
+| vlex case pages | Login or trial gated; secondary |
+| House of Commons AANO committee evidence and reports | Parliamentary testimony and reports, not primary law or decisions |
+| Canard, Manitoba Court of Appeal (1972) | Lower-court stage of the same matter; SCC decision recorded as GAP-012 |
+| Mitchell v. Canada (Indigenous Services), 2024 FC 148 | Per secondary source, concerns valuation of reserve property, not which regime governs |
+| Brooks v. Canada (Indigenous Services), 2022 FC 1064 | Secondary sources cite it for forum practice; relevance to which regime governs unverified; Federal Court hosts refuse automated access |
+| Toney v. Toney Estate, 2018 NSSC 179; Okanagan Indian Band v. Bonneau, 2003 BCCA 299 | Secondary sources cite them for intestacy and family-home points, not which regime governs; not verified |
+| decisions.fca-caf.ca/fc-cf/decisions/en/526480 | Unidentified Federal Court decision in a search result; host refuses automated access |
+
+Coverage (from draft/04-E06_Source_Register.csv): 55 captures, 15 gaps. Stage 1: 7 captures. Stage 2: 6 captures. Stage 3: 35 captures (31 admitted or qualified, 4 NOT_ADMITTED: one JavaScript shell, three NS refusal pages), 11 gaps (NS statutes, PE, YT, NU). Stage 4: 8 captures (Indian Act and First Nations Land Registry Regulations shared with Stage 1). Stage 5: 1 capture, 4 gaps.
