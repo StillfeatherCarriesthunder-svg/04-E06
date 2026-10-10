@@ -9,7 +9,9 @@ Replaces revision 2 before any run used it.
 | Section | Change | Reason |
 |---|---|---|
 | §7 Hard constraints | "Official primary sources only" replaced by primary sources from the issuing body's own site or official publication point, naming First Nation and other Indigenous governments as issuing bodies. Sites outside the known list need the issuer stated at capture; uncertainty is recorded as a qualification. | Operator ruling: sources include self-governing First Nations' laws on their own sites. The operator does not select or vet sources, so a per-site approval step served no purpose. |
-| §8 Authority | Capture allowed from any issuing body's site under §7. Domain-list additions and `--allow-other-domain` removed from APPROVAL_REQUIRED. | Follows from §7. `capture.py` now requires a stated issuer instead of operator approval. |
+| §3 Fixed frame | Nation-specific instruments: the existing rule (locate only, do not open) is now the stated default. New row: on operator request only, capture a set of Nation instruments covering each kind of regime, with the reason for each choice. | Operator ruling: Nation instruments are captured only when the operator requests it. Default is the existing rule. |
+| §7 Hard constraints | "No real Nation's law" narrowed to "no Nation's instrument except under §3's operator-request rule". | Follows from §3. |
+| §8 Authority | Capture allowed from any issuing body's site under §7. Domain-list additions and `--allow-other-domain` removed from APPROVAL_REQUIRED. Opening a Nation's instrument added to APPROVAL_REQUIRED. | Follows from §7. `capture.py` now requires a stated issuer instead of operator approval. |
 
 ## Revision 2 — 2026-10-10
 

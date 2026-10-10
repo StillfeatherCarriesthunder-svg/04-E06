@@ -28,9 +28,9 @@
     },
     {
       "id": "SRC-OPERATOR",
-      "path": "sources/04-E06_Operator_Instruction_v2.md",
-      "role": "operator instruction, revision 2: scope, frame, authority and acceptance",
-      "sha256": "sha256:8980c3146a39a1f348e87a56cc2a31eb82062c0805fa13f1df4b069fc493bad2"
+      "path": "sources/04-E06_Operator_Instruction_v3.md",
+      "role": "operator instruction, revision 3: scope, frame, authority and acceptance",
+      "sha256": "sha256:272bee8a114999d600c41ee329afeaa3e13b3f2d77e2489bb509fc52cc9b5cdc"
     }
   ]
 }

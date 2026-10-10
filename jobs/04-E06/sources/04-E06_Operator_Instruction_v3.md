@@ -28,7 +28,8 @@ This job collects the sources such a paper would need. It does not answer the qu
 |---|---|
 | Geographic scope | Canada-wide: federal law, and the law of every province and territory where it bears on the question. |
 | Nation | None selected. Do not research or assert facts about any real Nation. |
-| Nation-specific instruments | Locate where they are published or registered. Do not open an individual Nation's land code, law or agreement. |
+| Nation-specific instruments | Default: locate where they are published or registered. Do not open an individual Nation's land code, law or agreement. |
+| Nation instruments on operator request | Only when the operator requests it: capture a set of published Nation instruments that covers each kind of regime (a land code, a self-government agreement, and a stand-alone First Nation estate or wills law). Record why each was chosen. This is not a survey of every Nation. Assert nothing about a Nation beyond what its published instrument says. |
 | Legal cutoff | 2026-10-10. Later access dates are access dates, not new cutoffs. |
 
 ## 4. Source stages
@@ -73,7 +74,7 @@ The job is done when:
 
 - Source acquisition only. No essay, analysis, holding analysis, or conclusion about which regime governs.
 - No legal advice or entitlement determination.
-- No real Nation's law, facts or status.
+- No real Nation's facts or status. No Nation's instrument except under §3's operator-request rule.
 - No other candidate under this instruction.
 - Primary sources only, captured from the issuing body's own site or its official publication point. Issuing bodies include federal, provincial and territorial governments, courts, and First Nation and other Indigenous governments. Secondary commentary may help locate a source. It does not substitute for one.
 - For any site not listed in `gate/source_domains.json`, state the issuing body when capturing (`--issuer`, `--issuer-type`). Where the issuer or the site's official status is uncertain, record that as a qualification on the row.
@@ -85,7 +86,7 @@ The job is done when:
 | Gate | Actions |
 |---|---|
 | ALLOWED | Initialize this job. Search, retrieve and capture public primary sources from any issuing body's site under §7. Record gaps. Compute hashes. Write the register and search log. Publish state. Commit and push the working branch. |
-| APPROVAL_REQUIRED | Any scope change. |
+| APPROVAL_REQUIRED | Opening a Nation's instrument (operator request, §3). Any scope change. |
 | PROHIBITED | Drafting the paper or any analysis. Activating 04-E06. Work on another candidate. Editing the topic file, the B-Series Index or the governing files. Pushing to `main`. Legal advice. |
 
 ## 9. Risk and completion
