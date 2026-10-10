@@ -1,0 +1,388 @@
+{
+  "schema_version": "UAEP-CW/2",
+  "record": "MASTER_MANIFEST",
+  "release": "UAEP-PORTABLE-3.0.0",
+  "job_id": "04-E06-ACQ-2026-10-10",
+  "manifest_id": "04-E06-MM",
+  "state_version": 3,
+  "parent_state_version": 2,
+  "delta_id": "04-E06-D003-M1-COMPLETE",
+  "state": "ACTIVE",
+  "created_utc": "2026-10-10T16:31:00Z",
+  "contract": {
+    "contract_id": "04-E06-CONTRACT",
+    "revision": 1,
+    "form": "INITIALIZE_FROM composite",
+    "constituents": [
+      {
+        "id": "SRC-OPERATOR",
+        "ref": "jobs/04-E06/sources/04-E06_Operator_Instruction_v3.md",
+        "revision": "04-E06-OP-ACQ-001 rev 3",
+        "sha256": "sha256:272bee8a114999d600c41ee329afeaa3e13b3f2d77e2489bb509fc52cc9b5cdc"
+      },
+      {
+        "id": "SRC-04-E06",
+        "ref": "jobs/04-E06/sources/04-E06_Topic.md",
+        "sha256": "sha256:011e4a5806b470f721c53ce007706a38778a75a50085cd1a066b5dcf6985992b"
+      },
+      {
+        "id": "SRC-INDEX",
+        "ref": "sources/governing/00-B_SERIES_INDEX.md",
+        "sha256": "sha256:762c3f7401cdcf1e6cb58574acac0f4e201bf1aa35a5e4dae2b231acced4a4dd"
+      }
+    ],
+    "authority": "Operator Aaron, instruction 04-E06-OP-ACQ-001 rev 3 §8; operator 'Go' in session 2026-10-10 authorizing initialization and Stage 1",
+    "objective": "Acquire and record, fresh, the primary sources a future paper would need for candidate 04-E06 (method to identify the governing estate/succession instrument where federal, provincial/territorial and First Nation sources appear relevant). Collect only; do not answer.",
+    "done": [
+      "Every stage 1-5 has >=1 captured source or a recorded gap explaining why none could be captured",
+      "jobs/04-E06/draft/04-E06_Source_Register.csv lists every capture and gap with its ID",
+      "jobs/04-E06/draft/04-E06_Search_Log.md lists every search and fetch, and every exclusion with reason",
+      "python3 scripts/ledger.py --job 04-E06 verify passes",
+      "Final state published and pushed"
+    ],
+    "per_source_acceptance": "official URL; retrieval UTC; tool-computed SHA-256 of captured bytes; currency date confirmed by reading the source; pinpoint; stage tag; cases: court, date, neutral citation, holding separate from context",
+    "scope": "Canada-wide: federal law and every province/territory where it bears on the question. Stages 1-5 per operator instruction §4.",
+    "non_goals": [
+      "paper drafting or any analysis",
+      "holding analysis",
+      "conclusion on which regime governs",
+      "legal advice or entitlement determination",
+      "activating 04-E06",
+      "any other candidate",
+      "facts or status of any real Nation"
+    ],
+    "hard_constraints": [
+      "Primary sources only, from the issuing body's own site or official publication point; secondary commentary only to locate",
+      "Sites not in gate/source_domains.json: state issuer at capture; record uncertainty as a row qualification",
+      "Respect terms of use; no bulk scraping; CanLII one hand-picked decision page at a time",
+      "Site refusal: record it and name the exact page for the operator to save into jobs/04-E06/inbox/",
+      "Nation instruments: locate publication/registration points only; opening any Nation's instrument needs operator request (APPROVAL_REQUIRED)",
+      "Legal cutoff 2026-10-10",
+      "Prior-run register/search log: locate only, never evidence",
+      "Never edit/delete evidence/raw or evidence/text; never push to main, force-push, amend, reset or rebase"
+    ],
+    "authority_envelope": {
+      "ALLOWED": [
+        "initialize",
+        "search/retrieve/capture public primary sources under §7",
+        "record gaps",
+        "compute hashes",
+        "write register and search log",
+        "publish state",
+        "commit and push working branch"
+      ],
+      "APPROVAL_REQUIRED": [
+        "opening a Nation's instrument (operator request, §3)",
+        "any scope change"
+      ],
+      "PROHIBITED": [
+        "drafting the paper or any analysis",
+        "activating 04-E06",
+        "other candidates",
+        "editing topic file, B-Series Index or governing files",
+        "pushing to main",
+        "legal advice"
+      ]
+    },
+    "evidence_standard": "Capture records in jobs/04-E06/evidence/ledger.jsonl produced by scripts/capture.py; annotations and gaps via scripts/ledger.py only; WebFetch/WebSearch output is never evidence",
+    "risk_abort": "Abort only if no authorized acquisition path remains; site refusals become gaps/operator EXT requests, not aborts",
+    "initial_module": "M1 Stage 1 acquisition"
+  },
+  "ready_gate": "PASS: objective, done, scope, hard constraints, authority and first module defined",
+  "feasibility": "FEASIBLE",
+  "risk_classification": {
+    "value": "ORDINARY",
+    "basis": "Output is a source register with no conclusions; every row states its limits; each capture is tool-hashed with a currency date read in the source. Kernel high-stakes threshold reviewed at initialization and not met. Reassess if scope changes."
+  },
+  "completion_policy": "LOCAL",
+  "source_register": [
+    {
+      "id": "SRC-KERNEL",
+      "source": "sources/governing/UAEP_WORKER_KERNEL.md",
+      "role": "governing Worker specification",
+      "required_for": "all transitions",
+      "version": "UAEP_WORKER_KERNEL 3.0.0 / UAEP-PORTABLE-3.0.0",
+      "sha256": "sha256:fe793e4b9867addfb64e74cffb369347a198fb797e0931d3b214802eeac1d933",
+      "completeness": "COMPLETE",
+      "evidence_of_completeness": "full read, 769 lines, 2026-10-10 session start"
+    },
+    {
+      "id": "SRC-WORKER-INSTR",
+      "source": "sources/governing/WORKER_INSTRUCTIONS.md",
+      "role": "Worker instructions",
+      "required_for": "all transitions",
+      "version": "UAEP_WORKER_INSTRUCTIONS 3.0.0",
+      "sha256": "sha256:dd53520bdc5de99c6fd788043403e0cbb9035ee58c0442de29685de36e1cb180",
+      "completeness": "COMPLETE",
+      "evidence_of_completeness": "full read, 63 lines"
+    },
+    {
+      "id": "SRC-INDEX",
+      "source": "sources/governing/00-B_SERIES_INDEX.md",
+      "role": "B-Series taxonomy; Contract constituent",
+      "required_for": "initialization",
+      "version": "unversioned; hash-bound",
+      "sha256": "sha256:762c3f7401cdcf1e6cb58574acac0f4e201bf1aa35a5e4dae2b231acced4a4dd",
+      "completeness": "COMPLETE",
+      "evidence_of_completeness": "full read, 62 lines"
+    },
+    {
+      "id": "SRC-04-E06",
+      "source": "jobs/04-E06/sources/04-E06_Topic.md",
+      "role": "candidate and activation rule; Contract constituent",
+      "required_for": "all transitions",
+      "version": "undated; hash-bound",
+      "sha256": "sha256:011e4a5806b470f721c53ce007706a38778a75a50085cd1a066b5dcf6985992b",
+      "completeness": "COMPLETE",
+      "evidence_of_completeness": "full read, 17 lines"
+    },
+    {
+      "id": "SRC-OPERATOR",
+      "source": "jobs/04-E06/sources/04-E06_Operator_Instruction_v3.md",
+      "role": "operator instruction; Contract constituent",
+      "required_for": "all transitions",
+      "version": "04-E06-OP-ACQ-001 revision 3, 2026-10-10",
+      "sha256": "sha256:272bee8a114999d600c41ee329afeaa3e13b3f2d77e2489bb509fc52cc9b5cdc",
+      "completeness": "COMPLETE",
+      "evidence_of_completeness": "full read, 124 lines"
+    }
+  ],
+  "source_gate": {
+    "result": "PASS",
+    "check_ref": "python3 scripts/verify_gate.py --job 04-E06 --bind, IDENTITY CHECK: PASS, 2026-10-10 initial entry; completeness by full read"
+  },
+  "supplemental_sources": [
+    {
+      "id": "PRIOR-RUN",
+      "ref": "jobs/04-E06/sources/prior_run/",
+      "status": "locate-only; not evidence; not required for gate"
+    }
+  ],
+  "plan": {
+    "plan_id": "04-E06-PLAN",
+    "plan_version": 1,
+    "origin": "Worker-authored from operator instruction §4, §6, §12; no CONTROL packet",
+    "plan_security": "EXECUTION_PLAN_SECURED",
+    "modules": [
+      {
+        "id": "M1",
+        "name": "Stage 1 federal legislation and regulations",
+        "status": "COMPLETE"
+      },
+      {
+        "id": "M2",
+        "name": "Stage 2 federal administrative guidance",
+        "status": "IN_PROGRESS"
+      },
+      {
+        "id": "M3",
+        "name": "Stage 3 provincial and territorial probate, wills and intestacy provisions",
+        "status": "READY"
+      },
+      {
+        "id": "M4",
+        "name": "Stage 4 registries and publication points",
+        "status": "READY"
+      },
+      {
+        "id": "M5",
+        "name": "Stage 5 judicial treatment",
+        "status": "READY"
+      },
+      {
+        "id": "M6",
+        "name": "Register, search log, ledger verify, final publish",
+        "status": "READY"
+      }
+    ]
+  },
+  "tasks": [
+    {
+      "id": "T1-01",
+      "action": "Capture Indian Act, R.S.C. 1985, c. I-5: estates provisions ss. 42-50.1 and application provision s. 4",
+      "route": "TOOL",
+      "executor": "AI",
+      "authority_gate": "ALLOWED",
+      "acceptance": "per_source_acceptance",
+      "status": "COMPLETE",
+      "evidence": [
+        "CAP-20261010T162504Z-784f1e81"
+      ]
+    },
+    {
+      "id": "T1-02",
+      "action": "Capture Indian Estates Regulations, C.R.C., c. 954",
+      "route": "TOOL",
+      "executor": "AI",
+      "authority_gate": "ALLOWED",
+      "acceptance": "per_source_acceptance",
+      "status": "COMPLETE",
+      "evidence": [
+        "CAP-20261010T162519Z-11f84813"
+      ]
+    },
+    {
+      "id": "T1-03",
+      "action": "Capture Framework Agreement on First Nation Land Management Act",
+      "route": "TOOL",
+      "executor": "AI",
+      "authority_gate": "ALLOWED",
+      "acceptance": "per_source_acceptance",
+      "status": "COMPLETE",
+      "evidence": [
+        "CAP-20261010T162520Z-83ae82e5",
+        "CAP-20261010T162704Z-2feaf46c (Framework Agreement, QUALIFIED)"
+      ]
+    },
+    {
+      "id": "T1-04",
+      "action": "Capture Family Homes on Reserves and Matrimonial Interests or Rights Act, S.C. 2013, c. 20",
+      "route": "TOOL",
+      "executor": "AI",
+      "authority_gate": "ALLOWED",
+      "acceptance": "per_source_acceptance",
+      "status": "COMPLETE",
+      "evidence": [
+        "CAP-20261010T162521Z-c0a7e892"
+      ]
+    },
+    {
+      "id": "T1-05",
+      "action": "Identify and capture any other federal enactment bearing on which instrument governs a succession, or record that none was found",
+      "route": "TOOL",
+      "executor": "AI",
+      "authority_gate": "ALLOWED",
+      "acceptance": "per_source_acceptance or recorded exclusion",
+      "status": "COMPLETE",
+      "evidence": [
+        "CAP-20261010T162754Z-379c38f3 (FN Land Registry Regs, stages 1+4)",
+        "CAP-20261010T162754Z-c93adda0 (Constitution Acts, QUALIFIED)"
+      ]
+    },
+    {
+      "id": "T2-01",
+      "action": "Capture ISC guidance on when ISC, a province/territory or a First Nation handles an estate (Estate services page)",
+      "route": "TOOL",
+      "executor": "AI",
+      "authority_gate": "ALLOWED",
+      "acceptance": "per_source_acceptance",
+      "status": "IN_PROGRESS"
+    },
+    {
+      "id": "T2-02",
+      "action": "Capture ISC 'Administering an Indian Act Estate' and will guidance",
+      "route": "TOOL",
+      "executor": "AI",
+      "authority_gate": "ALLOWED",
+      "acceptance": "per_source_acceptance or gap",
+      "status": "READY"
+    },
+    {
+      "id": "T2-03",
+      "action": "Capture CIRNAC/ISC guidance on estates under land codes, FHRMIRA or self-government, or record none found",
+      "route": "TOOL",
+      "executor": "AI",
+      "authority_gate": "ALLOWED",
+      "acceptance": "per_source_acceptance or recorded exclusion",
+      "status": "READY"
+    }
+  ],
+  "approvals": [
+    {
+      "id": "APV-001",
+      "scope": "Initialize job and execute Stage 1 (operator 'Go', 2026-10-10 session)",
+      "status": "GRANTED"
+    }
+  ],
+  "waivers": [],
+  "assumptions": [],
+  "exclusions": [],
+  "deployment_binding": {
+    "profile": "UAEP-RELAY-DISCOVERABLE/1 (PORTABLE_TEMPLATE)",
+    "host": "Claude Code cloud session; B-Series hub repo; branch claude/claude-md-session-start-b0cps1",
+    "observable_model": "UNKNOWN (not self-reported)",
+    "read_source": "AVAILABLE_VERIFIED: file read tools; full reads at entry",
+    "compute_digest": "AVAILABLE_VERIFIED: verify_gate.py (hashlib)",
+    "publish_state": "TOOL scripts/publish_state.py (local git commit + read-back) then git push; remote durability only after push confirmed",
+    "capture": "scripts/capture.py; pypdf 6.17.0 available",
+    "start_isolated_review": "NOT_TESTED; not required under LOCAL",
+    "protection": "VERSIONED_FROZEN via git history; not ENFORCED_IMMUTABLE"
+  },
+  "persistence": "Local git commit by publish_state.py, then push of the working branch; reported as branch + commit",
+  "next_action": "Execute T2-01..T2-03 (Stage 2 federal administrative guidance)",
+  "blockers": [
+    {
+      "id": "BLK-001",
+      "kind": "EXTERNAL_BLOCKER (capability/access gap; not a prohibition)",
+      "observed_utc": "2026-10-10T11:42:42Z",
+      "condition": "Session egress proxy refuses CONNECT (HTTP 403, connect_rejected) to every source host tested; capture.py cannot fetch. WebFetch also fails (ENOTFOUND). WebSearch works (locate only). github.com reachable, so state publication and push work.",
+      "evidence": [
+        "capture.py exit 1: 'Tunnel connection failed: 403 Forbidden' for laws-lois.justice.gc.ca",
+        "agent proxy status recentRelayFailures: laws-lois.justice.gc.ca:443 connect_rejected at 11:42:42Z and 11:43:00Z",
+        "curl HEAD probe 11:43Z: laws.justice.gc.ca, www.sac-isc.gc.ca, www.rcaanc-cirnac.gc.ca, gazette.gc.ca, www.canlii.org, decisions.scc-csc.ca, laws.gnb.ca, www.ontario.ca, fng.ca all CONNECT 403",
+        "draft/04-E06_Search_Log.md rows 1-4"
+      ],
+      "affects": [
+        "M1",
+        "M2",
+        "M3",
+        "M4",
+        "M5"
+      ],
+      "not_affected": [
+        "state publication and git push",
+        "WebSearch locating",
+        "operator-saved file ingest via capture.py --from-file"
+      ],
+      "ext_package": {
+        "required_action": "Operator widens the cloud environment's network access (environment settings > Network access): add the source hosts under Allowed domains, keeping package managers allowed; or choose a broader access level.",
+        "recommended_hosts": [
+          "laws-lois.justice.gc.ca",
+          "laws.justice.gc.ca",
+          "lois-laws.justice.gc.ca",
+          "www.sac-isc.gc.ca",
+          "www.rcaanc-cirnac.gc.ca",
+          "gazette.gc.ca",
+          "www.gazette.gc.ca",
+          "canadagazette.gc.ca",
+          "publications.gc.ca",
+          "decisions.scc-csc.ca",
+          "www.scc-csc.ca",
+          "decisions.fca-caf.gc.ca",
+          "decisions.fct-cf.gc.ca",
+          "www.canlii.org",
+          "www.bclaws.gov.bc.ca",
+          "kings-printer.alberta.ca",
+          "publications.saskatchewan.ca",
+          "web2.gov.mb.ca",
+          "www.ontario.ca",
+          "www.legisquebec.gouv.qc.ca",
+          "laws.gnb.ca",
+          "nslegislature.ca",
+          "novascotia.ca",
+          "www.princeedwardisland.ca",
+          "www.assembly.nl.ca",
+          "laws.yukon.ca",
+          "www.justice.gov.nt.ca",
+          "www.nunavutlegislation.ca",
+          "fng.ca",
+          "labrc.com"
+        ],
+        "purpose": "Unblock capture.py for all stages (T1-01..T1-05 first)",
+        "delivery_condition": "Takes effect in a session started after the settings change; resume from jobs/04-E06/state/ on this branch",
+        "acceptance_test": "capture.py --job 04-E06 succeeds for the Indian Act full text; further hosts found later may need adding",
+        "fallback": "Operator saves each page into jobs/04-E06/inbox/ for --from-file ingest (high operator effort; Worker would name each exact page)"
+      },
+      "status": "RESOLVED",
+      "resolved_utc": "2026-10-10T16:25:04Z",
+      "resolution_evidence": "capture.py HTTP 200 for laws-lois.justice.gc.ca (CAP-20261010T162504Z-784f1e81) after operator 'Start'"
+    }
+  ],
+  "evidence": {
+    "ledger": "jobs/04-E06/evidence/ledger.jsonl",
+    "captures": 7,
+    "annotations": "ANN-0001..ANN-0022",
+    "gaps": 0,
+    "verify": "ledger.py verify PASS 7 captures, 0 problems"
+  }
+}
