@@ -36,6 +36,30 @@ Candidate 04-E06 stays CANDIDATE / UNACTIVATED. Every search and fetch in this j
 | 28 | 2026-10-10T16:32:00Z | capture.py (http) | https://www.sac-isc.gc.ca/eng/1408981855429 | CAPTURED CAP-20261010T163200Z-824664a5 (ISC-FHRMIRA-FN-LAWS-LIST), stage 4 publication point |
 | 29 | 2026-10-10T16:32Z | WebSearch | rcaanc-cirnac.gc.ca estates Yukon Northwest Territories First Nations estate services Indian Act | CIRNAC Wills and Estates (Yukon) page; ISC page; secondary (hullandhull.com, allaboutestates.ca, willful.co, cmmns.com); lnib.net copy |
 | 30 | 2026-10-10T16:32:27Z | capture.py (http) | https://www.rcaanc-cirnac.gc.ca/eng/1334096114211 | CAPTURED CAP-20261010T163227Z-74d77292 (CIRNAC-YUKON-WILLS-ESTATES) |
+| 31 | 2026-10-10T16:33Z | WebSearch | bclaws.gov.bc.ca Wills, Estates and Succession Act SBC 2009 c 13 complete | BC Laws WESA URLs; free.bcpublications.ca mirror; secondary (Wikipedia, courthouselibrary.ca, lslap.bc.ca, lawsociety.bc.ca, nanaimolaw.com) |
+| 32 | 2026-10-10T16:33Z | WebSearch | kings-printer.alberta.ca Wills and Succession Act W-12.2 Estate Administration Act Surrogate Rules PDF | open.alberta.ca catalogue; secondary (lesaonline.org, carters.ca, alri.ualberta.ca) |
+| 33 | 2026-10-10T16:33Z | WebSearch | publications.saskatchewan.ca The Wills Act, 1996 The Intestate Succession Act, 2019 The Administration of Estates Act | Intestate Succession Act, 2019 download (product 102827); saskatchewan.ca guidance; secondary (mltaikins.com, bcli.org, mondaq) |
+| 34 | 2026-10-10T16:33Z | WebSearch | web2.gov.mb.ca laws statutes ccsm Wills Act w150 Intestate Succession Act i85 Court of King's Bench Surrogate Practice Act | Manitoba Laws w150, c290 pages; secondary (manitobalawreform.ca, Law Society MB) |
+| 35 | 2026-10-10T16:34:06Z | capture.py (http) | https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/09013_01 | CAPTURED CAP-20261010T163406Z-d0e36cdf (BC-WESA) |
+| 36 | 2026-10-10T16:34Z | WebSearch | bclaws.gov.bc.ca Supreme Court Civil Rules Part 25 estates "168/2009" rule 25-3 | Located 168_2009_03_1 and related documents; cbabc.org consultation (secondary) |
+| 37 | 2026-10-10T16:34Z | curl (locate only) | bclaws.gov.bc.ca .../statreg/168_2009_03, 168_2009_03_1, 168_2009_04, 168_2009_04_1 | 168_2009_03_1 holds 'Part 25 — Estates' |
+| 38 | 2026-10-10T16:34:56Z | capture.py (http) | https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/168_2009_03_1 | CAPTURED CAP-20261010T163456Z-b280f253 (BC-SCCR-PART25) |
+| 39 | 2026-10-10T16:35Z | curl (locate only) | https://open.alberta.ca/publications/w12p2 | 200; links to kings-printer.alberta.ca catalogue |
+| 40 | 2026-10-10T16:35:22Z | capture.py (http) | kings-printer.alberta.ca/documents/Acts/W12P2.pdf ; /Acts/E12P5.pdf ; /Regs/1995_130.pdf | CAPTURED CAP-20261010T163522Z-a61250a7 (AB-WILLS-SUCCESSION), CAP-20261010T163526Z-c2b2a897 (AB-ESTATE-ADMIN), CAP-20261010T163528Z-cdf149c2 (AB-SURROGATE-RULES) |
+| 41 | 2026-10-10T16:36Z | WebSearch | publications.saskatchewan.ca "Wills Act, 1996" W-14.1 download | Product 940 (English), 2485 (French); secondary (mltaikins.com, cbasask.org, lawsociety.sk.ca, lawreformcommission.sk.ca) |
+| 42 | 2026-10-10T16:36Z | WebSearch | publications.saskatchewan.ca "Administration of Estates Act" A-4.1 download | Product 389 (Act), 110054 (Regulations); saskatchewan.ca guidance; vlex (gated) |
+| 43 | 2026-10-10T16:36:20Z | capture.py (http) | publications.saskatchewan.ca products 940/1517, 102827/113952, 389/419 | CAPTURED CAP-20261010T163620Z-f8e81b1f (SK-WILLS-ACT), CAP-20261010T163621Z-6c249703 (SK-INTESTATE-SUCCESSION), CAP-20261010T163622Z-793810c9 (SK-ADMIN-ESTATES) |
+| 44 | 2026-10-10T16:37Z | WebSearch | Saskatchewan King's Bench Rules Part 16 estates sasklawcourts.ca PDF | Publications Saskatchewan product 73108; sasklawcourts.ca Part 16 forms; Law Society SK webinar notice (Part 16 revisions, fall 2025) |
+| 45 | 2026-10-10T16:37Z | curl (locate only) | sasklawcourts.ca rules pages (one 404; home; /kings-bench/rules-practice-directives/) | Court page links the King's Bench Rules to publications.saskatchewan.ca product 73108 |
+| 46 | 2026-10-10T16:37:37Z | capture.py (http) | https://publications.saskatchewan.ca/api/v1/products/73108/formats/81637/download | CAPTURED CAP-20261010T163737Z-f6c8ab1e (SK-KB-RULES) |
+| 47 | 2026-10-10T16:38:16Z | capture.py (http) | web2.gov.mb.ca/laws/statutes/ccsm/w150.php, i085.php, c290.php (?lang=en) | CAPTURED CAP-20261010T163816Z-cd2868ad (MB-WILLS-ACT), CAP-20261010T163817Z-1ba9c681 (MB-INTESTATE-SUCCESSION), CAP-20261010T163818Z-95835e04 (MB-SURROGATE-PRACTICE) |
+| 48 | 2026-10-10T16:38Z | curl (locate only) | web2.gov.mb.ca/laws/regs/current/_pdf-regs.php?reg=553/88 ; /553-88.php?lang=en | Both 200; HTML contains RULE 74 |
+| 49 | 2026-10-10T16:38:58Z | capture.py (http) | https://web2.gov.mb.ca/laws/regs/current/553-88.php?lang=en | CAPTURED CAP-20261010T163858Z-b0f1ba68 (MB-KB-RULES) |
+| 50 | 2026-10-10T16:40:35Z | capture.py (http) | https://www.ontario.ca/laws/statute/90s26 | CAPTURED CAP-20261010T164035Z-815e351a but body is the e-Laws JavaScript shell only; NOT_ADMITTED |
+| 51 | 2026-10-10T16:41Z | capture.py (--browser) | https://www.ontario.ca/laws/statute/90s26 | FAILED: Playwright 1.63 expected a Chromium build not installed; installed Playwright 1.56.0 to match the preinstalled Chromium 1194 |
+| 52 | 2026-10-10T16:42:12Z | capture.py (--browser) | https://www.ontario.ca/laws/statute/90s26 | CAPTURED CAP-20261010T164212Z-7394e647 (ON-SLRA), rendered DOM |
+| 53 | 2026-10-10T16:42:34Z | capture.py (--browser) | https://www.ontario.ca/laws/statute/90e21 ; /90e22 | CAPTURED CAP-20261010T164234Z-3ac41a2f (ON-ESTATES-ACT), CAP-20261010T164239Z-38e66325 (ON-ESTATES-ADMIN-ACT) |
+| 54 | 2026-10-10T16:43:01Z | capture.py (--browser) | https://www.ontario.ca/laws/regulation/900194 | CAPTURED CAP-20261010T164301Z-c33f6b35 (ON-RULES-CIVIL-PROCEDURE) |
 
 ## EXCLUDED
 
@@ -54,3 +78,12 @@ Candidate 04-E06 stays CANDIDATE / UNACTIVATED. Every search and fetch in this j
 | First Nation MRP law pages (aamjiwnaang.ca, fisherriver.ca) | Nation-specific instruments; operator has requested none (§3) |
 | Community profiles linked from the ISC FHRMIRA laws list | Nation-specific; not opened |
 | CIRNAC NWT-specific estates page | None located; NWT covered only by the ISC national page statement |
+| Wikipedia, courthouselibrary.ca, lslap.bc.ca, Law Society of BC checklists, nanaimolaw.com, cbabc.org | Secondary sources (BC) |
+| free.bcpublications.ca copies of BC statutes and rules | Mirror; BC Laws (bclaws.gov.bc.ca) copies captured instead |
+| lesaonline.org, carters.ca, alri.ualberta.ca; open.alberta.ca catalogue page | Secondary sources / catalogue entry (AB) |
+| French consolidation of The Wills Act, 1996 (product 2485) | Same Act in French; English consolidation captured |
+| The Administration of Estates Regulations (SK, A-4.1 Reg 2) | Procedural regulations; not identified as bearing on which law governs; not opened |
+| mltaikins.com, cbasask.org, lawsociety.sk.ca, lawreformcommission.sk.ca, bcli.org, mondaq.com | Secondary sources (SK) |
+| manitobalawreform.ca report; Law Society of Manitoba education materials | Secondary sources (MB) |
+| Manitoba bilingual PDF versions | HTML versions captured; pages state the bilingual PDF is the official copy (recorded as QUALIFIED) |
+| CAP-20261010T164035Z-815e351a (Ontario SLRA, HTTP) | Captured JavaScript shell without statute text; NOT_ADMITTED; superseded by browser capture |
