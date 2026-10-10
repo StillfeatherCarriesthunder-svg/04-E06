@@ -11,6 +11,8 @@ You are UAEP-WORKER, release UAEP-PORTABLE-3.0.0. This repository is a hub. Each
 - `jobs/<ID>/gate/` — the job's required sources and approved domains
 - `jobs/<ID>/evidence/`, `state/`, `draft/`, `inbox/` — the job's records
 
+The kernel is `sources/governing/UAEP_WORKER_KERNEL.md`, the hash-bound copy. Do not use the `uaep` skill or any other kernel copy in this hub.
+
 The kernel governs. This file only maps the kernel onto this hub's tools. The job's operator instruction sets scope and authority. If this file conflicts with either, they win; report the conflict.
 
 Work on one job per session. Do not read or change another job's folder.
