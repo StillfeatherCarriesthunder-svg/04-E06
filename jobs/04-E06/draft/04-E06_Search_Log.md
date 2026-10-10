@@ -26,6 +26,16 @@ Candidate 04-E06 stays CANDIDATE / UNACTIVATED. Every search and fetch in this j
 | 18 | 2026-10-10T16:27:54Z | capture.py (http) | https://laws-lois.justice.gc.ca/eng/regulations/SOR-2007-231/FullText.html | CAPTURED CAP-20261010T162754Z-379c38f3 (FN-LAND-REGISTRY-REGS), stages 1 and 4 |
 | 19 | 2026-10-10T16:27:54Z | capture.py (http) | https://laws-lois.justice.gc.ca/eng/const/FullText.html | CAPTURED CAP-20261010T162754Z-c93adda0 (CONSTITUTION-ACTS) |
 | 20 | 2026-10-10T16:29Z | WebSearch | federal Act Canada First Nation self-government "wills and estates" OR "succession" law-making power Indian Act sections 42 to 52 cease to apply | Committee materials on Bill C-428 (ourcommons.ca), BC Indian Act transition schedule, Law Society BC checklists. No further Canada-wide federal enactment identified; self-government Acts are Nation-specific |
+| 21 | 2026-10-10T16:30:05Z | capture.py (http) | https://www.sac-isc.gc.ca/eng/1100100032357/1581866877231 | CAPTURED CAP-20261010T163005Z-a3c088a0 (ISC-ESTATE-SERVICES) |
+| 22 | 2026-10-10T16:30:53Z | capture.py (http) | https://www.sac-isc.gc.ca/eng/1475591157216/1581869169920 | CAPTURED CAP-20261010T163053Z-d0e2d1ec (ISC-WILLS, infographic) |
+| 23 | 2026-10-10T16:30:54Z | capture.py (http) | https://www.sac-isc.gc.ca/eng/1476815262545/1581869354739 | CAPTURED CAP-20261010T163054Z-4c9dc05e (ISC-ADMINISTERING-ESTATE). Prior run reported this page blocked; it was retrievable here |
+| 24 | 2026-10-10T16:31:20Z | capture.py (http) | https://www.sac-isc.gc.ca/eng/1100100032530 | CAPTURED CAP-20261010T163120Z-b716c04b (ISC-WHY-WILL); redirected to /eng/1100100032530/1581868983148 |
+| 25 | 2026-10-10T16:31Z | WebSearch | sac-isc.gc.ca OR rcaanc-cirnac.gc.ca estates land code First Nation "wills and estates" self-government agreement Indian Act estates no longer apply | No official page; secondary (indigenous.plea.org, mondaq, lawinsider), First Nation-hosted summaries (fortmckay.com, tletinqox.ca, wahnapitaefirstnation.com), labrc.com, committee report |
+| 26 | 2026-10-10T16:31Z | WebSearch | rcaanc-cirnac.gc.ca matrimonial real property on reserve First Nations with own laws list Family Homes on Reserves death of spouse provisional federal rules | ISC MRP page; ISC FHRMIRA laws list; Legal Aid BC; nsfamilylaw.ca; First Nation MRP law pages |
+| 27 | 2026-10-10T16:31:58Z | capture.py (http) | https://www.sac-isc.gc.ca/eng/1100100032553 | CAPTURED CAP-20261010T163158Z-2b609ed7 (ISC-MRP-ON-RESERVE) |
+| 28 | 2026-10-10T16:32:00Z | capture.py (http) | https://www.sac-isc.gc.ca/eng/1408981855429 | CAPTURED CAP-20261010T163200Z-824664a5 (ISC-FHRMIRA-FN-LAWS-LIST), stage 4 publication point |
+| 29 | 2026-10-10T16:32Z | WebSearch | rcaanc-cirnac.gc.ca estates Yukon Northwest Territories First Nations estate services Indian Act | CIRNAC Wills and Estates (Yukon) page; ISC page; secondary (hullandhull.com, allaboutestates.ca, willful.co, cmmns.com); lnib.net copy |
+| 30 | 2026-10-10T16:32:27Z | capture.py (http) | https://www.rcaanc-cirnac.gc.ca/eng/1334096114211 | CAPTURED CAP-20261010T163227Z-74d77292 (CIRNAC-YUKON-WILLS-ESTATES) |
 
 ## EXCLUDED
 
@@ -39,3 +49,8 @@ Candidate 04-E06 stays CANDIDATE / UNACTIVATED. Every search and fetch in this j
 | Law Society of BC practice checklists G-1, G-3 | Secondary practice material |
 | BC 'Indian Act transition' schedule (leg.bc.ca, bcpublications.ca) | Treaty-implementation bill schedule tied to specific Nations; Nation-specific |
 | Federal self-government and modern-treaty implementing Acts | Nation-specific instruments; operator has requested none (§3). Located via CIRNAC index in Stage 4 instead |
+| indigenous.plea.org, mondaq.com, lawinsider.com, hullandhull.com, allaboutestates.ca, willful.co, Legal Aid BC, nsfamilylaw.ca | Secondary sources; pointers only |
+| First Nation-hosted summaries of Indian Act sections that cease to apply (fortmckay.com, tletinqox.ca, wahnapitaefirstnation.com) and lnib.net / cmmns.com copies of ISC material | Not issuer copies or secondary; Nation-hosted material not opened under §3 |
+| First Nation MRP law pages (aamjiwnaang.ca, fisherriver.ca) | Nation-specific instruments; operator has requested none (§3) |
+| Community profiles linked from the ISC FHRMIRA laws list | Nation-specific; not opened |
+| CIRNAC NWT-specific estates page | None located; NWT covered only by the ISC national page statement |
