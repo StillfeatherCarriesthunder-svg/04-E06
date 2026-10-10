@@ -1,0 +1,1039 @@
+NEWFOUNDLAND REGULATION 52/97
+
+This is an official version.
+
+Copyright © 2025: King's Printer,
+
+St. John's, Newfoundland and Labrador, Canada
+
+Important Information
+
+(Includes details about the availability of printed and electronic versions of the Statutes.)
+
+Table of Regulations
+
+Main Site
+
+How current is this regulation?
+
+PART II
+PROBATE
+
+RULE 56
+PROBATE, ADMINISTRATION AND
+GUARDIANSHIP RULES
+
+Analysis
+
+PART II
+PROBATE
+
+RULE 56
+PROBATE, ADMINISTRATION AND
+GUARDIANSHIP RULES
+
+56.01
+Priority of right to grant of probate or administration, with will annexed
+
+56.02
+Priority of right to grant of administration
+
+56.03
+Persons to whom grant may be made
+
+56.04
+Notice of Application
+
+56.04A
+Caveat
+
+56.05
+Form of application
+
+56.06
+Contents of application
+
+56.07
+Additional contents of application where deceased died testate
+
+56.08
+Form of jurat and supporting affidavits
+
+56.09
+Will, how marked
+
+56.10
+Inventory
+
+56.11
+Proof of will
+
+56.12
+Translation of will not in English
+
+56.13
+Grant of double probate
+
+56.14
+Grant of administration d.b.n.
+
+56.15
+Direction to omit interlineation, etc.
+
+56.16
+Grant where words erased, etc.
+
+56.17
+Grants to be sealed and signed by Registrar
+
+56.18
+Production of document relating to will
+
+56.19
+Proof in solemn form
+
+56.20
+Resealing
+
+56.21
+Bonds
+
+56.22
+Application to dispense with bond
+
+56.23
+Who may institute proceedings on bond
+
+56.24
+Letters of Guardianship
+
+56.25
+Accounts
+
+56.26
+Application for appointment and directions
+
+56.27
+Order for passing accounts
+
+56.28
+Dispensing with accounting: Depositing inventory and accounts
+
+56.29
+Filing of releases
+
+56.30
+Acts Book
+
+56.31
+Endorsements on all grants
+
+56.32
+Furnishing of copies by Court
+
+56.33
+Administration Forms
+
+56.34
+Application
+
+56.35
+Electronic filing
+
+56.36
+Approval of the registrar
+
+56.37
+Original of will etc.
+
+56.38
+Electronic Commerce Act
+
+Priority of right to grant probate or administration, with will annexed
+
+56.01.
+
+Where the deceased died leaving a will, the priority of right to a grant of probate or administration with will annexed
+shall be, subject to the discretion of the judge, as follows:
+
+(a)
+executors;
+
+(b)
+residuary legatees or devisees in trust;
+
+(c)
+residuary legatees or devisees for life;
+
+(d)
+ultimate residuary legatees, or devisees or, where the residue is not wholly disposed of, the persons entitled upon an intestacy (but this does not include the Crown);
+
+(e)
+the legal personal representatives of persons indicated in rule 56.01(d);
+
+(f)
+legatees or devisees, or creditors;
+
+(g)
+contingent residuary legatees or devisees, or contingent legatees or devisees, or persons, having no interest in the estate, who would have been entitled to a grant had the deceased died wholly intestate;
+
+(h)
+the Crown.
+
+1986 c42 Sch D rule 56.01
+
+Back to Top
+
+Priority of right to grant of administration
+
+56.02.
+
+Where the deceased died wholly intestate, the priority of right to a grant of administration shall be, subject to the discretion of the judge, as follows:
+
+(a)
+spouse;
+
+(b)
+children;
+
+(c)
+grandchildren, or other issue of deceased taking per stirpes;
+
+(d)
+father and mother;
+
+(e)
+brothers and sisters of the whole or half blood, or the issue of deceased brothers and sisters of the whole or half blood, taking per stirpes;
+
+(f)
+grandparents;
+
+(g)
+uncles and aunts of the whole or half blood, or the issue of deceased uncles and aunts of the whole or half blood, taking per stirpes;
+
+(h)
+creditors;
+
+(i)
+the Crown.
+
+1986 c42 Sch D rule 56.02; 2009 c31 s11
+
+Back to Top
+
+Persons to whom grant may be made
+
+56.03
+
+(1) A grant of administration must be made to a person resident within the province in preference to a person having equal right residing outside the province, unless a judge orders otherwise.
+
+(2)
+A grant of letters of administration with or without will annexed
+or for letters of administration de bonis
+non
+shall not be made to more than three persons.
+
+(3)
+Where one or more persons is entitled to apply for a grant of letters of administration with or without will annexed or for letters of administration de bonis
+non
+and have not renounced by desire the grant to be made to an attorney or attorneys on his, her or their behalf, then all such persons shall execute a power of attorney appointing the attorney or attorneys to apply for and obtain the grant.
+
+1986 c42 Sch D rule 56.03; 209/87 s11; 89/25 s2
+
+Back to Top
+
+Notice of Application
+
+56.04.
+
+(1) The notice of application required by subsection 110(3) of the Act shall be referred to in this rule as a "Notice of Application" and shall be in Form 56.04A.
+
+(2)
+A Notice of Application shall be posted in the Registry, as required by subsection 110(3) of the Act, by
+
+(a)
+placing it in alphabetical order in a folder that is accessible to the public;
+
+(b)
+entering it in an electronic database by categories of name of deceased, name of applicant, nature of application, name of executor or administrator, date of posting and name of solicitor acting for applicant; and
+
+(c)
+recording the posting in chronological order in a document register that is accessible to the public.
+
+(3)
+Once a Notice of Application, whether for letters of probate or administration, has been posted, no other Notice of Application in respect of the same deceased person may be posted while the original Notice of Application remains effective, but a competing claim to probate or administration may be made by entry of a Caveat.
+
+(4)
+A Notice of Application posted on or after January 1, 2003
+
+shall lapse and be of no further force and effect 6 months after the date of its posting unless
+
+(a)
+an application for letters to which the Notice of Application relates is made to the court within that time; or
+
+(b)
+a Caveat has been entered and the time limit stipulated under rule 56.04A(3) has not expired.
+
+(5)
+Where a Notice of Application lapses as a result of
+operation of this rule
+
+(a)
+the Registrar shall remove the lapsed Notice of Application from the folder maintained under rule 56.04(2)(a) and shall cause the database referred to in rule 56.04(2)(b) to have a notation made on it that the Notice has lapsed; and
+
+(b)
+any person, including the original applicant, may post a further Notice of Application.
+
+(6)
+A Notice of Application posted before January 1, 2003
+
+shall lapse and be of no further force and effect on and after June 30, 2003
+unless
+
+(a)
+an application for letters to which the Notice of Application relates has been made within that time; or
+
+(b)
+a Caveat has been entered.
+
+(7)
+A Notice of Application may be withdrawn at any time before the issuing of a grant of Letters of Probate or Letters of Administration by filing in the Registry a Withdrawal of Notice of Application in Form 56.04B.
+
+(8)
+Unless otherwise ordered by the court or authorized by the Registrar, all documents filed with respect to an estate shall remain with the Registry.
+
+93/02 s1
+
+Back to Top
+
+Caveat
+
+56.04A.
+
+(1) The Caveat referred to in section 114 of the Act shall be in Form 56.04AA.
+
+(2)
+A Caveat may be entered in the Registry, as required by section 114 of the Act before or after the posting of a Notice of Application, by
+
+(a)
+placing it in alphabetical order in a folder that is accessible to the public; and
+
+(b)
+entering it in an electronic database by categories of name of deceased, name of caveator, date of entering and name of solicitor acting for caveator.
+
+(3)
+Where a Caveat has been entered under the Act, the applicant who posted the Notice of Application to which the Caveat relates shall, within one year from the date of entry of the Caveat, commence a proceeding in the court
+
+(a)
+to expunge the Caveat; or
+
+(b)
+where probate is sought, to prove the will in solemn form.
+
+(4)
+Where the applicant who posted a Notice of Application to which a Caveat relates fails to take any of the steps required by rule 56.04A(3)
+
+(a)
+the Notice of Application shall lapse and be of no further force or effect; and
+
+(b)
+the posting of a further Notice of Application in relation to the same deceased, by the applicant or anyone acting on behalf of the applicant, shall only be effective when service of the further Notice of Application on the original caveator or the solicitor for the original caveator has been effected.
+
+(5)
+The Registrar may require the proof of service referred to in rule 56.04A(4) that may be reasonable, as a condition of accepting a further Notice of Application for posting.
+
+(6)
+Where a Caveat has been entered under the Act, the Registrar shall cause the folder
+and the electronic database maintained under rules 56.04(2)(a) and (b) to be cross referenced so that a Caveat relating to a Notice of Application will be disclosed to a person searching for that Notice of Application.
+
+(7)
+Where a Caveat has been entered under the Act before a Notice of Application relating to the estate of the deceased to which the Caveat relates has been posted, a person intending to post a Notice of Application after that may apply to the court by Originating Application (inter partes) naming the caveator as defendant to
+
+(a)
+seek an order expunging the Caveat; and
+
+(b)
+seek directions as to the manner of proceeding, whether under section 115 of the Act or otherwise to obtain a grant of letters of probate or administration, as the case may be, and a posting of a subsequent Notice of Application relating to a deceased referred to in a previous Notice of Application shall be disclosed in the electronic database at the time of the subsequent posting.
+
+(8)
+A Caveat may be withdrawn at any time by filing in the Registry a Withdrawal of Caveat in Form 56.04AB.
+
+93/02 s2
+
+Back to Top
+
+Form of application
+
+56.05.
+
+(1) Every application for a grant shall be in Form 56.05A, and
+shall be signed by the applicant or the applicant's solicitor and shall be filed with the Court.
+
+(2)
+If the applicant desires the judge to dispense with the filing of a bond or to reduce the amount or the number of sureties, the application shall so state.
+
+1986 c42 Sch D rule 56.05; 36/14 s75
+
+Back to Top
+
+Contents of application
+
+56.06.
+
+(1) Every application for a grant shall be accompanied by an affidavit verifying the facts upon which the applicant relies for a grant.
+
+(2)
+In the application and the affidavit, the deceased or other person, as the case may be, shall
+be described by his or her full name and if known otherwise, the full name shall be followed by such other name or names as he or she was otherwise known.
+
+(3)
+Every application for a grant, except for guardianship, shall
+
+(a)
+set out the name and address of every person entitled to share in the estate of the deceased, so far as they are known to the applicant, and whether or not
+the person is under 19 years of age; and
+
+(b)
+where applicable, state the names and addresses, if known, and relationship to the applicant of every person who resides within the jurisdiction and who is entitled to a grant in priority to or having an equal right with the applicant to the grant and state that those persons have renounced their right or consented to the grant being made and the Court may direct that notice of the application be given or consents obtained from any of those persons who have not renounced or consented.
+
+(4)
+Every application for probate or administration shall show the marital status and occupation of the deceased at the time of the death of the deceased.
+
+1986 c42 Sch D rule 56.06
+
+Back to Top
+
+Additional contents of application where deceased died testate
+
+56.07.
+
+Where the deceased died testate, the application shall show
+
+(a)
+that the deceased was of the full age of 17 years at the time of the execution of the will or if under 17 that the deceased was at that time a volunteer within the meaning of The Wills (Volunteers) Act,
+or a member of a component of the Canadian Forces which was either referred to as a regular force in the National Defence Act,
+or placed in active service under the National Defence Act,
+or was a mariner or seaman;
+
+(b)
+that neither witness to the will is a beneficiary or the spouse of a beneficiary named in the will or, if so, that a named beneficiary or the spouse of a named beneficiary is such a witness; and
+
+(c)
+that the deceased did not marry after the execution of the will or otherwise, as the case may be, or
+, if the deceased did so marry, that there is a declaration in the will that it was made in contemplation of that marriage.
+
+1986 c42 Sch D rule 56.07; 2009 c31 s11
+
+Back to Top
+
+Form of jurat and supporting affidavits
+
+56.08.
+
+(1) In an affidavit made by two or more deponents the names of the persons making the application shall be inserted in the jurat, but if the affidavit of all the deponents is taken at one time by the same officer, it is sufficient to state that it was sworn or affirmed by both or all of
+the "above named deponents".
+
+(2)
+Where the applicant is unable to verify any fact upon which the affidavit relies, that fact shall be verified
+
+(a)
+by an affidavit as circumstances may require of a person who can depose thereto; or
+
+(b)
+by an affidavit containing statements as to the belief of the deponent with the source and grounds.
+
+1986 c42 Sch D rule 56.08; 209/87 s12
+
+Back to Top
+
+Will, how marked
+
+56.09.
+
+The will shall be annexed to the application and shall be identified by the signature of the applicant and shall be marked as an exhibit to the affidavit proving due execution and where possible, the will should be marked on the back of the last page with the signatures of the applicant, witness and persons taking the affidavit of the witness and the applicant.
+
+1986 c42 Sch D rule 56.09
+
+Back to Top
+
+Inventory
+
+56.10.
+
+Upon every application for a grant, the applicant shall file with the application
+
+(a)
+an inventory and valuation of the assets or the deceased at the time of the deceased's death in Form 56.10A; and
+
+(b)
+an affidavit stating that the inventory contains a true and correct statement of all property belonging to the deceased at the time of his or her death so far as it has been possible to ascertain,
+
+and the inventory shall be annexed to the affidavit.
+
+1986 c42 Sch D rule 56.10
+
+Back to Top
+
+Proof of will
+
+56.11.
+
+(1) On an application for probate or for administration with will annexed, the due execution of an attested will and attested codicil, if any, shall be proved by one of the attesting witnesses by an affidavit in Form 56.11A.
+
+(2)
+If the testator
+
+(a)
+was blind,
+
+(b)
+executed the will or codicil by making his or her mark, or
+
+(c)
+did not fully understand the language in which the will was written,
+
+the proof shall satisfy the Court or judge that before its execution the will or codicil was fully explained to the testator and the testator appeared to perfectly understand it.
+
+(3)
+When a holograph will is
+presented for probate or with an application for administration with will annexed, the applicant shall submit proof of execution thereof in Form 56.11B, or in such other form as the judge may require to satisfy the judge that the entire will, including the signature thereto, is in the proper handwriting of the deceased.
+
+1986 c42 Sch D rule 56.11
+
+Back to Top
+
+Translation of will not in English
+
+56.12.
+
+(1) With any will written
+in a language other than English, there shall be filed a translation thereof, with proof by affidavit in Form 56.12A, or by other proof to the satisfaction of the Court or judge of the name of the language in which the will is written, the competency of the translator and the correctness of the translation.
+
+(2)
+A copy of the English translation together with a copy of the will in its original form shall be attached to the grant.
+
+1986 c42 Sch D rule 56.12
+
+Back to Top
+
+Grant of double probate
+
+56.13.
+
+(1) Where all of the executors named in a will have not made application for probate and the right has been reserved to one or more of them to make application for probate at some future time, or if an alternate executor is called upon to complete the administration, and, in either case, if it is desired to have the appointment of such executor or executors confirmed by the Court, the executor may apply for a grant to be termed "a grant of double probate".
+
+(2)
+The application shall state, in addition to the fact of the original probate having been granted to the original applicant, the reason for the second application.
+
+(3)
+The copy of the will contained in a certified copy of the original grant shall be marked as an exhibit to the application and shall be identified by the signature of the applicant.
+
+(4)
+The original grant of probate shall be surrendered with the application unless it is proved to the satisfaction of the Court that the original grant of probate has been lost or destroyed.
+
+1986 c42 Sch D rule 56.13
+
+Back to Top
+
+Grant of administration d.b.n.
+
+56.14.
+
+(1) Where in an estate the administrator has died or the executor has died intestate, an application may be made for a grant of letters of administration de bonis
+non
+or of letters of administration de bonis
+non
+with will annexed, as the case may be, to complete the estate.
+
+(2)
+The application shall be similar in form to the original application and shall recite the particulars of the first grant, the death of the personal representative, the names of the interested parties and the grounds upon which the applicant is claiming the grant and in the case of an application for letters of administration de bonis
+non
+with the will annexed a certified copy of the original will shall be marked as an exhibit to the application and shall be identified by the signature of the applicant.
+
+(3)
+The assets shown shall be only the unadministered property of the deceased with values at the date of the death of the deceased.
+
+1986 c42 Sch D rule 56.14
+
+Back to Top
+
+Grant where words erased, etc.
+
+56.15.
+
+Where, in any judge's fiat authorizing a grant, direction is given to omit any interlineation, alteration, erasure or obliteration from the will, the same shall be omitted from the copy of the will attached to the grant.
+
+1986 c42 Sch D rule 56.15
+
+Back to Top
+
+Grant where words erased, etc.
+
+56.16.
+
+In all cases in which words have been erased or obliterated which might have been of importance or where the appearance of the will is such as to indicate an attempted cancellation by burning, tearing or the like or where any suspicious circumstances exist, probate shall not be granted until all such matters have been explained to the satisfaction of the Court or judge.
+
+1986 c42 Sch D rule 56.16
+
+Back to Top
+
+Grants to be sealed and signed b Registrar
+
+56.17.
+
+All grants of probate or administration shall be signed by the Registrar and issued under the seal of the Court and any copy of a will forming part of or attached to the grant shall be authenticated by the initials of the Registrar and the grant and copy of the will shall be recorded in the proper register.
+
+1986 c42 Sch D rule 56.17
+
+Back to Top
+
+Production of document relating to will
+
+56.18.
+
+If a will contains a reference to, or if an applicant has any knowledge of, any paper, deed, memorandum or other document of such a nature as to raise a question whether it ought or ought not to form a constituent part of the will, the deed, paper, memorandum or other document shall be produced with a view to ascertaining whether it is entitled to probate, and if it cannot be produced, its non-production must be accounted for.
+
+1986 c42 Sch D rule 56.18
+
+Back to Top
+
+Proof in solemn form
+
+56.19.
+
+Where the circumstances appear to justify the direction, the Court or judge may require that proof be made in solemn form.
+
+1986 c42 Sch D rule 56.19
+
+Back to Top
+
+Resealing
+
+56.20.
+
+(1) A grant of letters of probate or letters of administration referred to in the Act may be resealed upon application therefore in accordance with this rule.
+
+(2)
+The facts to be shown and the affidavits to be taken shall be as required upon an application for probate or administration with or without will annexed
+, except that only assets of the deceased in the province need be shown and such grant may be accepted as proof
+
+(a)
+of death,
+
+(b)
+in cases of testacy, of the execution of the will and that it is the last will of the deceased, and
+
+(c)
+in cases of intestacy, that the deceased left no will.
+
+(3)
+There shall also be filed in support of the application
+
+(a)
+an exemplification of the grant sealed with the seal of the foreign court, or
+
+(b)
+a copy of such grant certified under the direction of the foreign court,
+
+and in addition
+
+(c)
+a certificate from the foreign court or some other evidence to the satisfaction of the judge that the grant is wholly unrevoked and of full effect,
+
+(d)
+an affidavit of the applicant verifying the facts upon which the applicant relies for a grant, and
+
+(e)
+proof to the satisfaction of the Court that the will was executed in accordance with the laws of the province, if the estate includes an interest in land in the province.
+
+1986 c42 Sch D rule 56.20
+
+Back to Top
+
+Bonds
+
+56.21.
+
+(1) The security to be given pursuant to section 120 of the Act shall be in one of Forms 56.21A, 56.21B or 56.21C as may be appropriate or to like effect with affidavits of execution and justification to the satisfaction of the Court or judge who may require the personal attendance of the sureties for examination.
+
+(2)
+In lieu of a personal bond with two sureties, the Court may accept the bond of an insurer licensed under the Insurance Companies Act
+to write surety and fidelity insurance, in which case the amount of the bond need only be for the aggregate value of the estate and no affidavit of justification or execution is required.
+
+(3)
+In an affidavit of justification
+the value of the property of which any surety claims to be possessed shall be determined after deducting debts the surety may owe, the value of the surety's statutory exemption from seizure and any other sum for which the person is already surety.
+
+(4)
+A personal surety shall
+
+(a)
+be 19 years of age;
+
+(b)
+be resident in the province; and
+
+(c)
+have real or personal property in the province exigible
+to the amount of one half of the bond.
+
+1986 c42 Sch D rule 56.21; 209/87 s13; 95/14 s2; 46/20 s6
+
+Back to Top
+
+Application to dispense with bond
+
+56.22.
+
+On application, the Court or judge may dispense with giving a bond upon the person applying filing an affidavit either by himself, herself or by some person having personal knowledge of the affairs of the deceased, stating
+
+(a)
+that so far as can be ascertained there are no debts for which the estate is, or may be liable; or
+
+(b)
+that adequate provision has been made for the payment of any unpaid debts for which the estate is, or may be liable,
+
+and setting out clearly the sources of information available to the deponent and the inquiries which have been made to ascertain the fact.
+
+1986 c42 Sch D rule 56.22
+
+Back to Top
+
+Who may institute proceedings on bond
+
+56.23.
+
+Any person interested in the estate may by leave of the Court or judge institute proceedings in the name of the Attorney General on the bond or bonds without an assignment thereof to that person.
+
+1986 c42 Sch D rule 56.23
+
+Back to Top
+
+Letters of Guardianship
+
+56.24.
+
+Every application for letters of guardianship shall contain
+
+(a)
+the date and place of death and place of residence of the parent or parents of the minors if the parent or parents are deceased;
+
+(b)
+the names, ages (with dates of birth) and residence of the minors;
+
+(c)
+the relationship, if any, of the applicant to the minors and that the applicant is of the full age of 19 years and, if there is a nearer relative than the applicant, the reason why the nearer relative does not apply;
+
+(d)
+in the case of an application for guardianship of the estate of a minor, particulars, valuation and location of real and personal property of the minor; and
+
+(e)
+particulars of the eligibility and fitness of the applicant.
+
+1986 c42 Sch D rule 56.24
+
+Back to Top
+
+Accounts
+
+56.25.
+
+(1) Every application for the passing of accounts shall be accompanied by an inventory of the estate and a statement of account of the administration verified under oath or affirmation.
+
+(2)
+The inventory and accounts may as nearly as is
+expedient, reasonable and applicable, comprise the following particulars:
+
+(a)
+a schedule showing in detail all assets;
+
+(b)
+a schedule showing in detail all liabilities;
+
+(c)
+an account of all money received
+
+(i)
+on account of capital, and
+
+(ii)
+on account of income;
+
+(d)
+an account of all money disbursed
+or property disposed of
+
+(i)
+on account of capital, and
+
+(ii)
+on account of income;
+
+(e)
+a schedule showing all real and personal property remaining on hand;
+
+(f)
+a schedule showing any liabilities unpaid;
+
+(g)
+a reconciliation account (where necessary) showing in a summarized form the items necessary to balance the net value of the estate at the commencement of the period with the net value at the end;
+
+(h)
+such other accounts as the circumstances may require or as the judge may direct.
+
+(3)
+Where principal and income are dealt with separately by the will or instrument creating any trust estate, the accounts shall be divided so as to
+show separately receipts and disbursements in respect of principal and income, and in every other case the amounts may be so divided if the accounts of principal and income have been kept separate.
+
+(4)
+Items in the accounts of receipts of money or property shall show
+
+(a)
+the date of the receipt;
+
+(b)
+the name of the person from whom received;
+
+(c)
+on what account received; and
+
+(d)
+the amount or value thereof.
+
+(5)
+Items of disbursement or disposition of money or property shall show
+
+(a)
+the date thereof;
+
+(b)
+to whom paid or disposed of;
+
+(c)
+on what account disbursed;
+
+(d)
+the amount or value thereof; and
+
+(e)
+the disposition made of the particular asset.
+
+1986 c42 Sch D rule 56.25
+
+Back to Top
+
+Application for appointment and directions
+
+56.26.
+
+(1) The accounting party having deposited the inventory and accounts stated in accordance with rule 56.25 shall within a reasonable time apply ex parte
+to a judge
+
+(a)
+to refer the matter to a Master to take accounts and make enquiries and to report thereon; and
+
+(b)
+for directions respecting the parties to be served with notice of the time and place of the reference and with a copy of the accounts.
+
+(2)
+The parties to be served with the appointment for the taking of the accounts shall if resident within Newfoundland
+
+and Labrador
+be entitled to not less than ten days' notice thereof and if resident out of Newfoundland
+
+and Labrador
+to such notice as the judge directs.
+
+(3)
+On the taking of the accounts, every executor or administrator shall produce vouchers for all debts and legacies paid and for all funeral and other expenses and such executor or administrator may be examined on oath or affirmation and evidence may be taken touching any of the property or effects of the deceased which have come into the executor's or administrator's hands or knowledge and the disposition thereof.
+
+(4)
+Any item of expenditure may be allowed without producing a voucher therefore if such expenditure is proved by sworn or affirmed testimony, stating when and to whom the payment was made.
+
+1986 c42 Sch D rule 56.26; 2001 c42 s45
+
+Back to Top
+
+Order for passing accounts
+
+56.27.
+
+When the Master has completed his or her report the Master shall file it with the Court forthwith and the accounting party or any party interested may after notice to all interested parties apply to the judge for an order allowing and passing the accounts in whole or in part.
+
+36/14 s76
+
+Back to Top
+
+Dispensing with accounting: Depositing inventory and accounts
+
+56.28.
+
+(1) A judge may order the dispensing of an accounting with a view to saving expense to the estate in any case where the judge is satisfied that an accounting would not advance the interests of the estate or of any person interested therein and is generally regarded by the judge as unnecessary.
+
+(2)
+When an accounting is dispensed with, the judge may fix the remuneration of the executor, administrator, trustee or guardian and may make any order or give any direction which the judge could make or give upon the hearing of an application to pass accounts.
+
+(3)
+Any party interested in an estate or administration thereof as beneficiary or creditor or as surety under any bond may apply to a judge on ten clear days' notice to the executor, administrator, guardian or trustee, or on such notice and to such person as the judge may direct, for an order calling upon the executor, administrator, guardian or trustee to exhibit and deposit with the Court an inventory of the estate under administration and an account under oath or affirmation of the administration by the executor, administrator, guardian or trustee and to proceed to have it passed and allowed.
+
+1986 c42 Sch D rule 56.28; 36/14 s77
+
+Back to Top
+
+Filing of releases
+
+56.29.
+
+(1) Executors or administrators may file with the Court releases executed in Form 56.29A
+
+(a)
+by all adults interested in the estate; and
+
+(b)
+by the guardian of the estate of a minor where letters of guardianship have been granted.
+
+(2)
+Where releases are filed under rule 56.29(1) the judge may dispense with the passing of accounts, and
+
+(a)
+make an order for the discharge of the administrator;
+
+(b)
+make an order that the executor has fully and satisfactorily accounted; or
+
+(c)
+make such other order as the judge considers proper.
+
+(3)
+All releases shall be signed and sealed in the presence of a witness, who shall sign his or her name as witness to the release, and who shall make an affidavit in Form 56.29B or to the like effect.
+
+(4)
+Notwithstanding rule 56.29(3) the judge may, upon being satisfied of the execution of a release, admit it notwithstanding that proof of its execution may be defective under the provisions of this rule.
+
+1986 c42 Sch D rule 56.29; 36/14 s78
+
+Back to Top
+
+Acts Book
+
+56.30.
+
+(1) There shall be kept in the Registry a book, to be known as the Acts Book, or, on or after July 1, 1990, in computer storage and retrieval systems provided for the purpose in which shall be entered
+
+(a)
+the names of persons deceased to whose wills or estates, letters of probate, administration c.t.a.
+or administration are granted, together with the date of such grant and the name of the executor or administrator;
+
+(b)
+in the case of resealing under section 130 of the Act, there shall be entered the names of the persons deceased, the names of the executors or administrators and the date of resealing; and
+
+(c)
+the names of all persons of whose estates guardians are appointed, together with the date of the grant and the names of the guardians not being guardians
+ad litem;
+
+(d)
+the names of all persons for whose estates the Public Trustee becomes guardian under subsection (4) of section 20 of the Mentally Disabled Persons’ Estates Act,
+together with the effective date of the appointment; and
+
+(e)
+particulars of ex parte
+applications and orders thereon made to a judge under the Act and the rules thereunder and in such cases
+it shall be unnecessary to enter the particulars in the Cause Book of the Court.
+
+(2)
+Any reference in these rules to "Acts Book", "Cause Book" and "proper books" shall be deemed to include, on or after July 1, 1990, a reference to the corresponding computer storage and retrieval systems provided for the purpose.
+
+1986 c42 Sch D rule 56.30; 70/91 ss7&8; 88/12 s4
+
+Back to Top
+
+Endorsements on all grants
+
+56.31.
+
+There shall be endorsed the following words upon all grants:
+
+"By the oath or affirmation which you have taken you are bound to render a true account of your administration whenever required by law to do so. At such time, you are required to file with the Supreme Court a statement of account duly verified under your oath or affirmation showing how the estate has been dealt with."
+
+36/14 s79
+
+Back to Top
+
+Furnishing of copies by Court
+
+56.32.
+
+(1) Any person may demand and on payment of the prescribed fees receive from the Court a copy of any paper, proceeding or document in administration, probate or guardianship matters, which copies may be certified by the Registrar under seal, if so required.
+
+(2)
+The Registrar shall, on payment of the prescribed fees, furnish exemplifications of probates, letters of administration or guardianship.
+
+36/14 s80
+
+Back to Top
+
+Administration Forms
+
+56.33.
+
+Forms 56.33A to 56.33I, inclusive appended to these rules shall be used for the respective purposes therein mentioned, with such variations as circumstances require.
+
+1986 c42 Sch D rule 56.33; 72/00 s4
+
+Back to Top
+
+Application
+
+56.34.
+
+Rule 56 shall apply as far as may be practicable to any proceeding in administration, probate or guardianship matters which may be taken in matters pending at the time they come into force.
+
+1986 c42 Sch D rule 56.34
+
+Back to Top
+
+Electronic filing
+
+56.35.
+
+A document, form or other thing required to be filed by this rule may be filed electronically.
+
+108/10 s1
+
+Back to Top
+
+Approval of the registrar
+
+56.36
+
+.
+A person who wishes to file electronically a document, form or other thing required to be filed by this rule may do so by filing it with the Court in the registry approved for the purpose by the Registrar, using a computer system and a computer network, electronic forms and computer format approved for the purpose by the Chief Executive Officer in consultation with the Chief Justice.
+
+36/14 s81
+
+Back to Top
+
+Original of will etc.
+
+56.37.
+
+(1) Notwithstanding a filing under rule 56.36 involving a will, the original will shall be filed with the court.
+
+(2)
+Where a filing under rule 56.36 does not include an electronic copy of the will, the application will not be considered by the court until the original of the will is filed with the court.
+
+(3)
+Where a filing under rule 56.36 includes an electronic copy of the will, the court will not grant an order until the original of the will is filed with the court.
+
+108/10 s1; 36/14 s82
+
+Back to Top
+
+Electronic Commerce Act
+
+56.38.
+
+The Electronic Commerce Act
+applies to an electronic filing under this rule.
+
+108/10 s1
