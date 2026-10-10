@@ -60,6 +60,28 @@ Candidate 04-E06 stays CANDIDATE / UNACTIVATED. Every search and fetch in this j
 | 52 | 2026-10-10T16:42:12Z | capture.py (--browser) | https://www.ontario.ca/laws/statute/90s26 | CAPTURED CAP-20261010T164212Z-7394e647 (ON-SLRA), rendered DOM |
 | 53 | 2026-10-10T16:42:34Z | capture.py (--browser) | https://www.ontario.ca/laws/statute/90e21 ; /90e22 | CAPTURED CAP-20261010T164234Z-3ac41a2f (ON-ESTATES-ACT), CAP-20261010T164239Z-38e66325 (ON-ESTATES-ADMIN-ACT) |
 | 54 | 2026-10-10T16:43:01Z | capture.py (--browser) | https://www.ontario.ca/laws/regulation/900194 | CAPTURED CAP-20261010T164301Z-c33f6b35 (ON-RULES-CIVIL-PROCEDURE) |
+| 55 | 2026-10-10T16:44:28Z | capture.py (http) | https://www.legisquebec.gouv.qc.ca/en/document/cs/CCQ-1991 | CAPTURED CAP-20261010T164428Z-a71ceb5b (QC-CIVIL-CODE) |
+| 56 | 2026-10-10T16:45:07Z | capture.py (http) | https://www.legisquebec.gouv.qc.ca/en/document/cs/C-25.01 | CAPTURED CAP-20261010T164507Z-28a94dbd (QC-CODE-CIVIL-PROCEDURE) |
+| 57 | 2026-10-10T16:45:28Z | capture.py (http) | laws.gnb.ca/en/document/cs/P-17.1, cr/84-9, cs/W-9, cs/D-9 | CAPTURED CAP-20261010T164528Z-27bc9434, CAP-20261010T164529Z-ebc02c21, CAP-20261010T164529Z-d2b949ea, CAP-20261010T164530Z-c6064080 (NB) |
+| 58 | 2026-10-10T16:46:07Z | capture.py (http) | nslegislature.ca/sites/default/files/legc/statutes/wills.htm, intestate%20succession.htm, probate.htm | REFUSED by site: 244-byte 'Request Rejected' pages captured (CAP-20261010T164607Z-a749bcc2, CAP-20261010T164608Z-7aa2422f, CAP-20261010T164608Z-c2492cb5), NOT_ADMITTED; GAP-001..003 |
+| 59 | 2026-10-10T16:46Z | WebSearch | Nova Scotia Probate Court Practice, Procedure and Forms Regulations novascotia.ca just regulations | novascotia.ca/just/regulations/regs/probregs.htm |
+| 60 | 2026-10-10T16:46:35Z | capture.py (http) | https://novascotia.ca/just/regulations/regs/probregs.htm | CAPTURED CAP-20261010T164635Z-7775a3aa (NS-PROBATE-REGS) |
+| 61 | 2026-10-10T16:47Z | WebSearch | princeedwardisland.ca legislation Probate Act P-21 Wills Act Intestate Succession PDF Prince Edward Island | qatauth.gpei.ca copy; bac-lac archive; secondary (estateexec.com, taxtips.ca, lovable.app) |
+| 62 | 2026-10-10T16:47Z | capture.py (http) | https://www.princeedwardisland.ca/sites/default/files/legislation/p-21-probate_act.pdf | FAILED: HTTP 403 (site refusal); GAP-004 |
+| 63 | 2026-10-10T16:47Z | WebSearch | Prince Edward Island "Wills Act" RSPEI ... princeedwardisland.ca legislation pdf | No PEI wills statute located; GAP-005 |
+| 64 | 2026-10-10T16:47Z | WebSearch | courts.pe.ca Rules of Civil Procedure Rule 74 estates ... | courts.pe.ca rules index; PEI Rule 74 is Small Claims |
+| 65 | 2026-10-10T16:47Z | curl (locate only) | https://www.courts.pe.ca/rules-of-civil-procedure | HTTP 403 (site refusal); GAP-006 |
+| 66 | 2026-10-10T16:48:06Z | capture.py (http) | assembly.nl.ca/Legislation/sr/statutes/w10.htm ; i21.htm | CAPTURED CAP-20261010T164806Z-f35d401b (NL-WILLS-ACT), CAP-20261010T164807Z-c5069825 (NL-INTESTATE-SUCCESSION) |
+| 67 | 2026-10-10T16:48Z | WebSearch | assembly.nl.ca Rules of the Supreme Court 1986 Rule 55 probate ... | court.nl.ca probate page and forms (Rule 56) |
+| 68 | 2026-10-10T16:49Z | curl (locate only) | https://www.court.nl.ca/supreme/?p=1635 | Links to Rule 56 (assembly.nl.ca RulesSC/Rc86ru56.htm) and Resealing Order rc960744 |
+| 69 | 2026-10-10T16:49:16Z | capture.py (http) | https://www.assembly.nl.ca/legislation/sr/regulations/RulesSC/Rc86ru56.htm | CAPTURED CAP-20261010T164916Z-bf2961e4 (NL-RULE-56) |
+| 70 | 2026-10-10T16:49Z | WebSearch | laws.yukon.ca Wills Act Estate Administration Act Yukon consolidated PDF ; justice.gov.nt.ca ... ; nunavutlegislation.ca ... | Yukon: archived gov.yk.ca PDFs, yukon.ca guidance; NWT: justice.gov.nt.ca PDFs, laws.opennwt.ca copies; Nunavut: nunavutlegislation.ca downloads 393, 7788 |
+| 71 | 2026-10-10T16:50Z | capture.py (http) + curl | laws.yukon.ca PDFs 2002-0230, 2002-0077; laws.yukon.ca home | FAILED: HTTP 403 on PDFs and home page (site refusal); GAP-007, GAP-008 |
+| 72 | 2026-10-10T16:50:25Z | capture.py (http) | justice.gov.nt.ca/en/files/legislation/wills/wills.a.pdf ; intestate-succession/intestate-succession.a.pdf | CAPTURED CAP-20261010T165025Z-1a826f29 (NT-WILLS-ACT), CAP-20261010T165027Z-6238ba2f (NT-INTESTATE-SUCCESSION) |
+| 73 | 2026-10-10T16:51Z | WebSearch | Northwest Territories probate rules Supreme Court ... | Estate Administration Rules R-123-2016 (judicature.r9.pdf) |
+| 74 | 2026-10-10T16:51:04Z | capture.py (http) | https://www.justice.gov.nt.ca/en/files/legislation/judicature/judicature.r9.pdf | CAPTURED CAP-20261010T165104Z-e483a9f6 (NT-ESTATE-ADMIN-RULES) |
+| 75 | 2026-10-10T16:51Z | curl (locate only) | nunavutlegislation.ca/en/file-download/download/public/393, 7788, 6437 | HTTP 403 (site refusal); GAP-009..011 |
+| 76 | 2026-10-10T16:52:04Z | capture.py (http) | https://www.assembly.nl.ca/Legislation/sr/statutes/j04.htm | CAPTURED CAP-20261010T165204Z-1c4dff2f (NL-JUDICATURE-ACT) |
 
 ## EXCLUDED
 
@@ -87,3 +109,13 @@ Candidate 04-E06 stays CANDIDATE / UNACTIVATED. Every search and fetch in this j
 | manitobalawreform.ca report; Law Society of Manitoba education materials | Secondary sources (MB) |
 | Manitoba bilingual PDF versions | HTML versions captured; pages state the bilingual PDF is the official copy (recorded as QUALIFIED) |
 | CAP-20261010T164035Z-815e351a (Ontario SLRA, HTTP) | Captured JavaScript shell without statute text; NOT_ADMITTED; superseded by browser capture |
+| qatauth.gpei.ca copy of PEI Probate Act | Host appears to be a non-production mirror, not an official publication point |
+| Library and Archives Canada web-archive copies (PEI 2003, Yukon 2020) | Archived copies, not current consolidations |
+| estateexec.com, taxtips.ca, will-kit-prospects.lovable.app, willful.co, cwilson.com, canadianlawyermag.com | Secondary sources |
+| court.nl.ca probate forms and 2011 probate booklet | Court forms and guidance; Rule 56 and Judicature Act Part VI captured instead |
+| NL Resealing of Foreign Grants of Probate and Administration Order (rc960744) | Reciprocal-jurisdiction order for resealing; not opened; add if activation needs it |
+| yukon.ca wills and estates guidance pages; Yukon bill news releases | Territorial guidance and news, not the statutes; statutes recorded as gaps |
+| laws.opennwt.ca and gazette.opennwt.ca copies | Third-party parses of GNWT PDFs; justice.gov.nt.ca originals captured |
+| legislation.nt.gov.au (Northern Territory, Australia) | Not a Canadian jurisdiction |
+| nunavutcourts.ca probate forms; pravo.hse.ru copy of Nunavut Wills Act | Forms only / third-party copy |
+| NWT Judicature Act | Enabling statute for the Estate Administration Rules; rules captured; Act not opened |
