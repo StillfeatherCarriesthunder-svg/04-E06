@@ -1,7 +1,7 @@
 # OPERATOR INSTRUCTION — 04-E06 SOURCE ACQUISITION JOB
 
 Instruction ID: 04-E06-OP-ACQ-001
-Revision: 2
+Revision: 3
 Date: 2026-10-10
 Operator: Aaron
 Governing release: UAEP-PORTABLE-3.0.0 (UAEP_WORKER_KERNEL)
@@ -75,7 +75,8 @@ The job is done when:
 - No legal advice or entitlement determination.
 - No real Nation's law, facts or status.
 - No other candidate under this instruction.
-- Official primary sources only. Secondary commentary may help locate a source. It does not substitute for one.
+- Primary sources only, captured from the issuing body's own site or its official publication point. Issuing bodies include federal, provincial and territorial governments, courts, and First Nation and other Indigenous governments. Secondary commentary may help locate a source. It does not substitute for one.
+- For any site not listed in `gate/source_domains.json`, state the issuing body when capturing (`--issuer`, `--issuer-type`). Where the issuer or the site's official status is uncertain, record that as a qualification on the row.
 - Respect each site's terms of use. No bulk scraping. CanLII: one hand-picked decision page at a time.
 - When a site refuses automated access, record the refusal and name the exact page for the operator to save.
 
@@ -83,8 +84,8 @@ The job is done when:
 
 | Gate | Actions |
 |---|---|
-| ALLOWED | Initialize this job. Search, retrieve and capture public sources from domains in `gate/source_domains.json`. Record gaps. Compute hashes. Write the register and search log. Publish state. Commit and push the working branch. |
-| APPROVAL_REQUIRED | Adding a domain to `gate/source_domains.json`. Using `--allow-other-domain`. Any scope change. |
+| ALLOWED | Initialize this job. Search, retrieve and capture public primary sources from any issuing body's site under §7. Record gaps. Compute hashes. Write the register and search log. Publish state. Commit and push the working branch. |
+| APPROVAL_REQUIRED | Any scope change. |
 | PROHIBITED | Drafting the paper or any analysis. Activating 04-E06. Work on another candidate. Editing the topic file, the B-Series Index or the governing files. Pushing to `main`. Legal advice. |
 
 ## 9. Risk and completion
